@@ -1,6 +1,6 @@
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 
-//import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAIEmbeddings } from "@langchain/openai";
 
 import {DirectoryLoader} from "langchain/document_loaders/fs/directory";
 import {TextLoader} from "langchain/document_loaders/fs/text";
