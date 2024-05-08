@@ -9,6 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "langchain": "^0.1.36"
+    "langchain": "^0.1.36",
+    "dotenv": "^16.4.5"
+
   }
 }
