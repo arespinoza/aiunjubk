@@ -10,8 +10,8 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "langchain": "^0.1.36",
-    "dotenv": "^16.4.5"
-
+    "node-llama-cpp": "^2.8.10"
   }
 }
