@@ -16,6 +16,7 @@ import { LlamaCppEmbeddings } from "langchain/embeddings/llama_cpp";
 import * as dotenv from 'dotenv'
 dotenv.config();
 
+import cors from 'cors'
 
 
 import express from 'express'
@@ -23,6 +24,8 @@ import http from 'http'
 
 const app = express();
 const port = 3000;
+app.use(cors({origin: ['http://localhost:4200','http://10.3.0.62:4200',  'http://aplicaciones.fce.unju.edu.ar', 'http://aplicaciones.unju.edu.ar']}));
+
 
 /* Create HTTP server */
 http.createServer(app).listen(process.env.PORT)
