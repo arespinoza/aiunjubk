@@ -43,10 +43,11 @@ app.get('/api/status', async (req, res) => {
 })
 
 app.get('/api/ask', async (req, res) => {
+  var question = "";
   try {
 
     if(req.query.pregunta!=null && req.query.pregunta!=""){
-      const question = req.query.pregunta;
+      question = req.query.pregunta;
     };
 
 
