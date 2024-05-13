@@ -45,6 +45,11 @@ app.get('/api/status', async (req, res) => {
 app.get('/api/ask', async (req, res) => {
   try {
 
+    criteria = {};
+    if(req.query.pregunta!=null && req.query.pregunta!=""){
+      const question = req.query.pregunta;
+    };
+
 
     const embeddings = new LlamaCppEmbeddings(
       {
@@ -73,9 +78,7 @@ app.get('/api/ask', async (req, res) => {
     );
     
     // Search for the most similar document
-    const question = "que son los locker"
     const resultOne = await vectorStore.similaritySearch(question, 3);
-    
     const llmA = new LlamaCpp({ 
         modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
         lang_code: "es"
