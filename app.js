@@ -1,6 +1,7 @@
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 
 import { OpenAIEmbeddings } from "@langchain/openai";
+import { OpenAI } from "langchain/llms/openai";
 
 import {DirectoryLoader} from "langchain/document_loaders/fs/directory";
 import {TextLoader} from "langchain/document_loaders/fs/text";
@@ -21,6 +22,7 @@ import cors from 'cors'
 
 import express from 'express'
 import http from 'http'
+
 
 const app = express();
 const port = 3000;
@@ -120,19 +122,22 @@ app.get('/api/askopenai', async (req, res) => {
 
 
     
-    // Search for the most similar document
-    //const resultOne = await vectorStore.similaritySearch(question, 3);
-    //const llmA = new LlamaCpp({ 
-    //    modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
-    //    lang_code: "es"
-    //  });
-    //const chainA = loadQAStuffChain(llmA);
-    //const resA = await chainA.call({
-    //  input_documents: resultOne,
-    //  question,
-    //});
+    const llmA = new OpenAI({ modelName: "gpt-3.5-turbo"});
+    const chainA = loadQAStuffChain(llmA);
+    const directory = './docs' //saved directory in .env file
+    
+    //const loadedVectorStore = await FaissStore.load(
+    //  directory,
+    //  new OpenAIEmbeddings()
+    //  );
+      
+    const result = await vectorStore.similaritySearch(question, 3);
+    const resA = await chainA.call({
+      input_documents: result,
+      question,
+    });
 
-    res.json({ result: "en evaluacion ..."}); // Send the response as JSON
+    res.json({ result: resA}); // Send the response as JSON
 
   }  
     catch (error) {
