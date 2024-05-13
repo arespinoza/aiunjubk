@@ -33,6 +33,37 @@ console.info('listening on port ' + process.env.PORT)
 
 
 
+
+
+const embeddings = new LlamaCppEmbeddings(
+  {
+    modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
+  }
+);
+    // Create docs with a loader
+    // define what documents to load
+    const loader = new DirectoryLoader("./docs",{
+      ".txt" : (path)=>new TextLoader(path),
+      ".pdf" : (path)=>new PDFLoader(path),
+    })
+    const docs = await loader.load();
+    const textSplitter = new RecursiveCharacterTextSplitter({
+      chunkSize: 1000,
+      chunkOverlap: 200,
+    })
+    const docOutput = await textSplitter.splitDocuments(docs)
+    
+    
+    // Load the docs into the vector store
+    const vectorStore = await MemoryVectorStore.fromDocuments(
+      docOutput,
+      new OpenAIEmbeddings()
+    );
+
+
+
+
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
@@ -54,31 +85,6 @@ app.get('/api/ask', async (req, res) => {
     };
 
 
-    const embeddings = new LlamaCppEmbeddings(
-      {
-        modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
-      }
-    );
-    
-    // Create docs with a loader
-    // define what documents to load
-    const loader = new DirectoryLoader("./docs",{
-      ".txt" : (path)=>new TextLoader(path),
-      ".pdf" : (path)=>new PDFLoader(path),
-    })
-    const docs = await loader.load();
-    const textSplitter = new RecursiveCharacterTextSplitter({
-      chunkSize: 1000,
-      chunkOverlap: 200,
-    })
-    const docOutput = await textSplitter.splitDocuments(docs)
-    
-    
-    // Load the docs into the vector store
-    const vectorStore = await MemoryVectorStore.fromDocuments(
-      docOutput,
-      new OpenAIEmbeddings()
-    );
     
     // Search for the most similar document
     const resultOne = await vectorStore.similaritySearch(question, 3);
@@ -104,10 +110,33 @@ app.get('/api/ask', async (req, res) => {
   }
 })
 
-/**
+app.get('/api/askopenai', async (req, res) => {
+  var question = "";
+  try {
+
+    if(req.query.pregunta!=null && req.query.pregunta!=""){
+      question = req.query.pregunta;
+    };
 
 
+    
+    // Search for the most similar document
+    //const resultOne = await vectorStore.similaritySearch(question, 3);
+    //const llmA = new LlamaCpp({ 
+    //    modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
+    //    lang_code: "es"
+    //  });
+    //const chainA = loadQAStuffChain(llmA);
+    //const resA = await chainA.call({
+    //  input_documents: resultOne,
+    //  question,
+    //});
 
+    res.json({ result: "en evaluacion ..."}); // Send the response as JSON
 
-
- */
+  }  
+    catch (error) {
+    console.error(error);
+    res.status(500).json({ error: 'Internal Server Error' }); // Send an error response
+  }
+})
