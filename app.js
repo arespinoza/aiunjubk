@@ -13,15 +13,13 @@ import { loadQAStuffChain} from "langchain/chains";
 
 //import { LlamaCppEmbeddings } from "@langchain/community/embeddings/llama_cpp";
 import { LlamaCppEmbeddings } from "langchain/embeddings/llama_cpp";
-
 import * as dotenv from 'dotenv'
 dotenv.config();
 
 import cors from 'cors'
-
-
 import express from 'express'
 import http from 'http'
+import { time } from "console";
 
 
 const app = express();
@@ -42,25 +40,25 @@ const embeddings = new LlamaCppEmbeddings(
     modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
   }
 );
-    // Create docs with a loader
-    // define what documents to load
-    const loader = new DirectoryLoader("./docs",{
-      ".txt" : (path)=>new TextLoader(path),
-      ".pdf" : (path)=>new PDFLoader(path),
-    })
-    const docs = await loader.load();
-    const textSplitter = new RecursiveCharacterTextSplitter({
-      chunkSize: 1000,
-      chunkOverlap: 200,
-    })
-    const docOutput = await textSplitter.splitDocuments(docs)
-    
-    
-    // Load the docs into the vector store
-    const vectorStore = await MemoryVectorStore.fromDocuments(
-      docOutput,
-      new OpenAIEmbeddings()
-    );
+// Create docs with a loader
+// define what documents to load
+const loader = new DirectoryLoader("./docs",{
+  ".txt" : (path)=>new TextLoader(path),
+  ".pdf" : (path)=>new PDFLoader(path),
+})
+const docs = await loader.load();
+const textSplitter = new RecursiveCharacterTextSplitter({
+  chunkSize: 1000,
+  chunkOverlap: 200,
+})
+const docOutput = await textSplitter.splitDocuments(docs)
+
+
+// Load the docs into the vector store
+const vectorStore = await MemoryVectorStore.fromDocuments(
+  docOutput,
+  embeddings
+);
 
 
 
@@ -95,11 +93,13 @@ app.get('/api/ask', async (req, res) => {
         lang_code: "es"
       });
     const chainA = loadQAStuffChain(llmA);
-    const resA = await chainA.call({
+    var desde = Date.now();
+    const resA = await chainA.invoke({
       input_documents: resultOne,
       question,
     });
-    // console.log({ resA });
+    var hasta = Date.now();
+    console.log("Segundos transcurridos de la consulta: "+String((hasta - desde) / 1000));
     console.log(resA);
 
 
@@ -112,6 +112,7 @@ app.get('/api/ask', async (req, res) => {
   }
 })
 
+/**
 app.get('/api/askopenai', async (req, res) => {
   var question = "";
   try {
@@ -145,3 +146,4 @@ app.get('/api/askopenai', async (req, res) => {
     res.status(500).json({ error: 'Internal Server Error' }); // Send an error response
   }
 })
+ */

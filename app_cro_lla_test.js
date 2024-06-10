@@ -1,8 +1,9 @@
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
+
 import { Chroma} from "langchain/vectorstores/chroma"
 import { OpenAIEmbeddings } from "@langchain/openai";
 import { OpenAI } from "langchain/llms/openai";
-
+ 
 import {DirectoryLoader} from "langchain/document_loaders/fs/directory";
 import {TextLoader} from "langchain/document_loaders/fs/text";
 import {PDFLoader} from "langchain/document_loaders/fs/pdf";
@@ -13,17 +14,23 @@ import { RetrievalQAChain, loadQAStuffChain} from "langchain/chains";
 
 //import { LlamaCppEmbeddings } from "@langchain/community/embeddings/llama_cpp";
 import { LlamaCppEmbeddings } from "langchain/embeddings/llama_cpp";
+//import {  } from "langchain/tools/";
+
 
 import * as dotenv from 'dotenv'
 dotenv.config();
 
+const embeddings = new LlamaCppEmbeddings(
+  {
+    modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
+  }
+);
 
 import { ChromaClient } from "chromadb";
-const chroma = new ChromaClient({ path: "http://10.3.2.199:8000" });
-const collectionToDelete = await chroma.getOrCreateCollection({ name: "dbfce"});
+const chroma = new ChromaClient({ path: "http://127.0.0.1:8000" });
+const collectionToDelete = await chroma.getOrCreateCollection({ name: "dbfce", embeddingFunction: embeddings});
 await chroma.deleteCollection(collectionToDelete);
-const collection = await chroma.getOrCreateCollection({ name: "dbfce"});
-
+const collection = await chroma.getOrCreateCollection({ name: "dbfce", embeddingFunction: embeddings});
 
 import cors from 'cors'
 import express from 'express'
@@ -41,13 +48,6 @@ console.info('listening on port ' + process.env.PORT)
 
 
 
-
-
-const embeddings = new LlamaCppEmbeddings(
-  {
-    modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
-  }
-);
     // Create docs with a loader
     // define what documents to load
     const loader = new DirectoryLoader("./docs",{
@@ -59,35 +59,70 @@ const embeddings = new LlamaCppEmbeddings(
       chunkSize: 1000,
       chunkOverlap: 200,
     })
-    const docOutput = await textSplitter.splitDocuments(docs)
-    
+    const docOutput = await textSplitter.splitDocuments(docs);
     
     // Load the docs into the vector store
     const vectorStore = await Chroma.fromDocuments(
       docOutput,
-      new OpenAIEmbeddings(),
+      embeddings,
       {
         collectionName: "dbfce",
-        url: "http://10.3.2.199:8000",
-        collectionMetadata: {
-          "hnsw:space": "cosine"
-        }
+        url: "http://127.0.0.1:8000",
+        //collectionMetadata: {
+        //  "hnsw:space": "cosine"
+        //}
       }
     );
 
-    const collectiondbfce = await chroma.getOrCreateCollection({ name: "dbfce"});
-    console.log("*************** collection ****************");
-    console.log(collectiondbfce);
-    console.log("*************** vector ****************");
-    console.log(vectorStore)
-    const resultOne = await collection.query({
-      queryTexts:"pasivo",
-      nResults:2,
-      queryEmbeddings: embeddings,
-      
+    /**
+    const vectorStore2 = await Chroma.fromTexts(
+      [
+        `Tortoise: Labyrinth? Labyrinth? Could it Are we in the notorious Little
+            Harmonic Labyrinth of the dreaded Majotaur?`,
+        "Achilles: Yiikes! What is that?",
+        `Tortoise: They say-although I person never believed it myself-that an I
+            Majotaur has created a tiny labyrinth sits in a pit in the middle of
+            it, waiting innocent victims to get lost in its fears complexity.
+            Then, when they wander and dazed into the center, he laughs and
+            laughs at them-so hard, that he laughs them to death!`,
+        "Achilles: Oh, no!",
+        "Tortoise: But it's only a myth. Courage, Achilles.",
+      ],
+      [{ id: 2 }, { id: 1 }, { id: 3 }],
+      embeddings,
+      {
+        collectionName: "dbfce",
+        url: "http://127.0.0.1:8000",
+        //collectionMetadata: {
+        //  "hnsw:space": "cosine"
+        //}
+      }
+    );
+    */
+    console.log("************* result ****************")
+    console.log(collection);
+
+    const llmA = new LlamaCpp({ 
+      modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
+      lang_code: "es"
+    });
+    const chain = new RetrievalQAChain({
+      combineDocumentsChain: loadQAStuffChain(llmA),
+      retriever: vectorStore.asRetriever(),
+      chain_type: "stuff",
+      verbose: true,
     })
-    console.log("*************** resultOne ****************");
-    console.log(resultOne);
+
+    const res = await chain.call({
+      query: "Si no sabes la respuesta solo di No se lo que has preguntado. Pregunta: Que son los locker de biblioteca"
+    })
+
+    console.log(res);
+
+
+
+
+
 
 
 app.listen(port, () => {
@@ -118,12 +153,14 @@ app.get('/api/ask', async (req, res) => {
     );
 
     // Load the docs into the vector store
-    const vectorStore = await Chroma.fromExistingCollection(new OpenAIEmbeddings(),{
+    const vectorStore = await Chroma.fromExistingCollection(embeddings,{
       collectionName: "dbfce",
       url: "http://10.3.2.199:8000"
     })
-    const llmA = new OpenAI({ modelName: "gpt-3.5-turbo"});
-
+    const llmA = new LlamaCpp({ 
+      modelPath: "./models/llama-3-neural-chat-v1-8b-Q4_K_M.gguf",
+      lang_code: "es"
+    });
     const chain = new RetrievalQAChain({
       combineDocumentsChain: loadQAStuffChain(llmA),
       retriever: vectorStore.asRetriever(),
