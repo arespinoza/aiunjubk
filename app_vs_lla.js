@@ -13,6 +13,7 @@ import { loadQAStuffChain} from "langchain/chains";
 
 //import { LlamaCppEmbeddings } from "@langchain/community/embeddings/llama_cpp";
 import { LlamaCppEmbeddings } from "langchain/embeddings/llama_cpp";
+
 import * as dotenv from 'dotenv'
 dotenv.config();
 
