@@ -1,4 +1,4 @@
-REQUISITOS DE INGRESO DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu: Los requisitos de ingreso son los que se listan a continuación.
+REQUISITOS DE INGRESO DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu
 •	FORMULARIO DE PREINSCRIPCIÓN COMPLETO E IMPRESO. Si eres nuevo en la UNJu te preinscribes en el sistema de Preinscripción. (Enlace Sistema de preinscripción: https://preinscripcion.unju.edu.ar/preinscripcion/alumnoscentral/  ), o bien si ya eres alumno de la facultad te preinscribes desde el sistema SIU Guaraní (Enlace al Sistema SIU Guaraní: https://alumnos.fce.unju.edu.ar
 •	FOTOCOPIA DE DNI ANVERSO Y REVERSO. Debes escanear y subir archivo digital al sistema. Este video te muestra una herramienta de como digitalizar el documento. Enlace al video: https://drive.google.com/file/d/1011i_ZmiXcMxA9shJMPh_nXKMdTwUEi-/view?pli=1
 •	FOTOCOPIA AUTENTICADA DEL TÍTULO DE NIVEL MEDIO O POLIMODAL. Debes escanear y subir el archivo digital al sistema. El archivo digital será validado por el personal de acuerdo a la versión impresa.
@@ -7,10 +7,10 @@ REQUISITOS DE INGRESO DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu: Los req
 
 
 OFERTAS ACADEMICAS DE CARRERAS O PROPUESTAS DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu
-
 CARRERA CONTADOR PÚBLICO
-DURACIÓN: La carrera de Contador Público tiene una duración de 5 años.
-ALCANCE: El alcance queda definido por el marco normativo vigente define las Actividades Reguladas para el desempeño profesional, según normativa nacional establecida en el Artículo 43 de la Ley 24521.
+DURACIÓN: 5 años.
+ALCANCE:
+ El marco normativo vigente define las Actividades Reguladas para el desempeño profesional, según normativa nacional establecida en el Artículo 43 de la Ley 24521.
 A) Diseñar, dirigir e implementar sistemas de información contable en todos los segmentos de la contabilidad y costos. 
 B) Registrar, medir y exponer la información contable, histórica y proyectada, para todo tipo de organizaciones y unidades económicas. 
 C) Dirigir y realizar procedimientos de auditoría, y dictaminar en materia contable e impositiva.
@@ -18,7 +18,7 @@ D) Realizar los procesos de sindicatura en sociedades, concursos y quiebras.
 El Comité Ejecutivo del CIN, por Resolución CE nº 1042/15 aprobó el documento de trabajo titulado “Ejercicio para la reformulación de actividades reservadas”. En dicho documento, se fijaron como criterios que “las actividades reservadas son sólo un subconjunto dentro del total de alcances de cada título, de modo que, deben ser leídas en el marco de los alcances 
 completos de un título específico, cuya fijación es atribución de cada Universidad”.
 
-PERFIL DEL EGRESADO:
+PERFIL:
 -	Ejecutar las tareas reservadas a su profesión de acuerdo con la legislación vigente.
 -	Desarrollar su actividad en el marco del ejercicio liberal de la profesión.
 -	Planear, organizar, dirigir, ejecutar y controlar actividades contables y de administración de recursos financieros.
@@ -39,7 +39,7 @@ PERFIL DEL EGRESADO:
 
 
 CARRERA LICENCIATURA EN ADMINISTRACIÓN
-DURACIÓN: La carrera de Licenciatura en Administración tiene una duración de 4 años y medio.
+DURACIÓN: 4 años y medio.
 ALCANCE:
 1)	Planeamiento, organización, dirección, ejecución y control de la actividad empresaria en su conjunto. 
 2)	Organización y ejecución de planes y políticas empresarias. 
@@ -63,12 +63,11 @@ PERFIL:
 -	Tener suficiente amplitud de criterio para acceder a los nuevos requerimientos profesionales, a través de un proceso de aprendizaje y capacitación continua y permanente. 
 -	Realizar contando con una base metodológica, investigaciones científicas y tecnológicas, y el estudio interdisciplinario de la realidad, contribuyendo con el crecimiento y desarrollo del conocimiento de las ciencias económicas en particular y del conjunto de las ciencias en general.
 
-
 CARRERA LICENCIATURA EN ECONOMÍA POLÍTICA
-DURACION: La carrera de Licenciatura en Economía Política tiene una duración de 4 años.
+DURACION: 4 años.
 ALCANCE:
 La carrera de Licenciado en Economía Política está sujeta a la Ley Nro. 20.488 (Ley reglamentaria del ejercicio de las profesiones en ciencias económicas en el ámbito nacional), cuyo Artículo 11 expresa que se requerirá título de Licenciado en Economía o equivalente (en este caso Licenciado en Economía Política).
-PERFIL DEL EGRESADO: 
+PERFIL: 
 -	Integrar equipos interdisciplinarios de investigación.
 -	Diseñar e implementar proyectos de investigación científica en el campo de la economía política.
 -	Coordinar equipos de trabajo interdisciplinarios en el campo de la economía política.
@@ -85,4 +84,57 @@ Para ingresar a la Facultad de Ciencias Económicas los nuevos alumnos en la ins
 -	La carrera de” Licenciatura en Económica Política” dispone de un cursillo de nivelación que es “Cursillo de Nivelación en Contabilidad”, la no aprobación de la misma impide al alumno inscribirse en algunas de las materias subsiguientes del plan de estudio en el primer cuatrimestre.
 
 
+PREGUNTAS FRECUENTAS
+
+¿Me puedo inscribir en la facultad si adeudo materias del secundario?
+Si, podes inscribirte si adeudas materias del secundario. En este caso quedarás inscripto/a como ALUMNO/A CONDICIONAL. Para ello tendrás que presentar una Constancia de Título en Trámite especificando que adeudas materias del secundario y cuales son.
+
+¿Donde debo inscribirme para cursar algúna carrera de la Facultad de Ciencias Económicas?
+Debes ingresar a la página https://preinscripcion.unju.edu.ar/preinscripcion/alumnoscentral/
+
+¿Si me inscribí con anterioridad en otra carrera de la facultad que tengo que hacer?
+Si te inscribiste con anterioridad en algúna carrera de la Facultad o de la Universidad debes preinscribirte usando el Sistema Siu Guaraní su dirección es https://guarani.unju.edu.ar/guarani3. El sistema SIU Guaraní lo usan los alumnos de la Universidad Nacional de Jujuy.
+
+¿Se paga para inscribirse a cursar algúna carrera?
+No, no se cobra para cursar cualquier carrera de la Facultad de Ciencias Económicas, la Universidad Nacional de Jujuy es pública y gratuita, no se cobra arancel por ninguna de nuestras carreras de grado.
+
+
+¿Cual es la modalidad de cursado?
+La modalidad de cursado es presencial, se usa la modalidad virtual para algunas actividades que especifiquen los docentes.
+
+¿Que materias tengo que cursar? ¿Cuales son los horarios?
+De acuerdo a la carrera que elegiste deberas cursar diferentes materias
+
+¿Tengo que inscribirme para cursar las materias?
+Depende, si eres ingresante no debes inscribirte a las materias del curso de ingreso ya que se te inscribirá de manera automàtica. Solo los recursantes deben inscribirse por medio del sistema Siu Guaraní.
+
+¿Dónde puedo consultar los Planes de Estudio de las carreras?
+Los planes de estudio los puedo consultar entrando en la aplicación de servicios ServicioApp.
+
+¿Que debo hacer si quiero incribirme a cursar una carrera de Grado y soy extranjero?
+Se aplicarán las normas vigentes en la Universidad ingresa al link: https://www.argentina.gob.ar/tema/extranjeros/estudiar#5
+
+¿Si tengo más de 25 años y secundario incompleto ¿Puedo estudiar en la Facultad de Ciencias Económicas de la UNJu?
+
+
+¿Dónde encuentro las cartillas del curso de ingreso?
+Las cartillas del año anterior serán puestas a disposición de los alumnos en la aplicación FCE Digital, dirección https://aplicaciones.fce.unju.edu.ar/servicioapp ingresando con el usuario "aspirante y clave tambien "aspirante".
+
+¿Puedo pedir la constancia de alumno regular?
+La constancia de alumno regular la puedes solicitar una vez que hayas aprobado el curso de ingreso.
+
+¿Cuales son los numeros de contacto de Departamento Alumnos?
+El telefono es 4221530
+
+¿Qué es el plan de estudios?
+El plan de estudios establece el conjunto de asignaturas (o materias) que es necesario aprobar para completar una carrera. Cada asignatura tiene un código y un nombre. En la mayoría de las carreras de la UNS las asignaturas del plan están distribuidas por año y por cuatrimestre.
+
+¿La asistencia a los cursos de ingreso es obligatorio?
+Depende de la modalidad que impone el docente a cargo.
+
+
+¿Hay ingreso en la facultad?
+¿Cuando comienzan las clases?
+¿Cuándo puedo inscribirme para el ciclo lectivo 2025?
+¿Cuál es la documentación o requisitos solicitados para la inscripción?
 

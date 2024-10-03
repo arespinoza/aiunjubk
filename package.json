@@ -11,8 +11,6 @@
   "type": "module",
   "dependencies": {
     "@langchain/google-genai": "^0.1.0",
-    "@langchain/google-vertexai": "^0.1.0",
-    "@langchain/google-vertexai-web": "^0.1.0",
     "chromadb": "^1.8.1",
     "chromadb-default-embed": "^2.13.2",
     "cors": "^2.8.5",
