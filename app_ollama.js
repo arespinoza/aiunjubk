@@ -21,8 +21,8 @@ app.use(cors({origin: ['http://localhost:4200','http://10.3.0.62:4200',  'http:/
 
 
 const embeddings = new OllamaEmbeddings({
-  model: "gemma:2b", // default value
-  baseUrl: "http://localhost:11434", // default value
+  model: "llama3.2:latest", // default value
+  baseUrl: "http://10.3.2.195:11434", // default value
   requestOptions: {
     useMMap: true,
     numThread: 6,
@@ -82,7 +82,9 @@ app.listen(port, () => {
       // Search for the most similar document
       const resultOne = await vectorStore.similaritySearch(question, 5);
       const llmA = new Ollama({ 
-        model: "gemma:2b"
+        model: "llama3.2:latest",
+        baseUrl: "http://10.3.2.195:11434", // default value
+
         });
       const chainA = loadQAStuffChain(llmA);
       var desde = Date.now();
