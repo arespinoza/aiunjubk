@@ -115,6 +115,8 @@ app.listen(port, () => {
       const chainA = loadQAStuffChain(llm);
       var desde = Date.now();
       var resA = await chainA.invoke({
+        input_language: "Spanish",
+        output_language: "Spanish",
         input_documents: resultOne,
         question,
       });
@@ -138,11 +140,11 @@ app.listen(port, () => {
             fileUri: uploadResponse.file.uri,
           },
         },
-        { text: "Cuales son los requisitos de ingreso a la facultad?" },
+        { text: "Puedo ingresar a la facultad si no termine el secundario?" },
       ]);
       console.log("respuesta desde fileupload");
       console.log(result.response.text());
-      resA = result.response.text()
+      //resA = result.response.text()
 
       res.json({ result: resA }); // Send the response as JSON
   
