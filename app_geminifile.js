@@ -3,6 +3,8 @@ import express from 'express'
 
 //import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
+import { GoogleGenerativeAI } from "@google/generative-ai";
+import { GoogleAIFileManager } from "@google/generative-ai/server";
 
 // This helps connect to our .env file
 import * as dotenv from "dotenv";
@@ -25,6 +27,20 @@ const app = express();
 const port = 3000;
 app.use(cors({origin: ['http://localhost:4200','http://10.3.0.62:4200',  'http://aplicaciones.fce.unju.edu.ar', 'http://aplicaciones.unju.edu.ar']}));
 
+
+
+
+
+
+// Initialize GoogleGenerativeAI with your API_KEY.
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_API_KEY);
+// Initialize GoogleAIFileManager with your API_KEY.
+const fileManager = new GoogleAIFileManager(process.env.GOOGLE_API_KEY);
+// Upload the file and specify a display name.
+const uploadResponse = await fileManager.uploadFile("docs/ingresantes-ayuda.txt", {
+  mimeType: "text/plain",
+  //displayName: "Gemini 1.5 PDF",
+});
 
 
 
@@ -80,12 +96,12 @@ app.listen(port, () => {
   
       
       // Search for the most similar document
-      console.log("Resultados de la busqueda:");
+      console.log("Pregunta:");
       console.log(question);
 
       const resultOne = await vectorStore.similaritySearch(question, 5);
-      console.log("Resultados de la busqueda:");
-      console.log(resultOne);
+      //console.log("Resultados de la busqueda:");
+      //console.log(resultOne);
 
 
 
@@ -98,15 +114,36 @@ app.listen(port, () => {
 
       const chainA = loadQAStuffChain(llm);
       var desde = Date.now();
-      const resA = await chainA.invoke({
+      var resA = await chainA.invoke({
         input_documents: resultOne,
         question,
       });
       var hasta = Date.now();
       console.log("Segundos transcurridos de la consulta: "+String((hasta - desde) / 1000));
       console.log(resA);
-  
-  
+
+      
+
+
+
+      const model = genAI.getGenerativeModel({
+        // Choose a Gemini model.
+        model: "gemini-1.5-flash",
+      });
+      // Generate content using text and the URI reference for the uploaded file.
+      const result = await model.generateContent([
+        {
+          fileData: {
+            mimeType: uploadResponse.file.mimeType,
+            fileUri: uploadResponse.file.uri,
+          },
+        },
+        { text: "Cuales son los requisitos de ingreso a la facultad?" },
+      ]);
+      console.log("respuesta desde fileupload");
+      console.log(result.response.text());
+      resA = result.response.text()
+
       res.json({ result: resA }); // Send the response as JSON
   
     }  
