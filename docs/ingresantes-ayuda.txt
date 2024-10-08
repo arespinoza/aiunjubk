@@ -1,10 +1,3 @@
-EXÁMEN DE INGRESO A LA FACULTAD DE CIENCIAS ECONÓMICAS
-Para ingresar a la Facultad de Ciencias Económicas los nuevos alumnos en la institución deben rendir un exámen de ingreso, éste variará de acuerdo a la carrera que deseen cursar. 
--	La carrera de “Contador Público” dispone de un ciclo introductorio compuesto por las materias “Introducción a la Matemática” e “Introducción a la Contabilidad”, ambas deben ser aprobadas sin excepción para que el alumno pueda posteriormente inscribirse cursar las subsiguientes materias del plan de estudio en el primer cuatrimestre.
--	La carrera de “Licenciatura en Administración” dispone de dos cursillos de nivelación que son “Cursillo de Nivelación en Contabilidad” y “Cursillo de Nivelación en Matemática”, la no aprobación de alguna de las mismas impide al alumno inscribirse en algunas materias subsiguientes del plan de estudio. Si apruebas las dos podrás inscribirte y cursar con normalidad todas las materias subsiguientes del plan de estudio en el primer cuatrimestre.
--	La carrera de” Licenciatura en Económica Política” dispone de un cursillo de nivelación que es “Cursillo de Nivelación en Contabilidad”, la no aprobación de la misma impide al alumno inscribirse en algunas de las materias subsiguientes del plan de estudio en el primer cuatrimestre.
-
-
 REQUISITOS DE INGRESO A LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu:
 •	FORMULARIO DE PREINSCRIPCIÓN COMPLETO E IMPRESO. Si eres nuevo en la UNJu te preinscribes en el sistema de Preinscripción. (Enlace Sistema de preinscripción: https://preinscripcion.unju.edu.ar/preinscripcion/alumnoscentral/  ), o bien si ya eres alumno de la facultad te preinscribes desde el sistema SIU Guaraní (Enlace al Sistema SIU Guaraní: https://alumnos.fce.unju.edu.ar
 •	FOTOCOPIA DE DNI ANVERSO Y REVERSO. Debes escanear y subir archivo digital al sistema. Este video te muestra una herramienta de como digitalizar el documento. Enlace al video: https://drive.google.com/file/d/1011i_ZmiXcMxA9shJMPh_nXKMdTwUEi-/view?pli=1
@@ -125,7 +118,7 @@ El plan de estudios establece el conjunto de asignaturas (o materias) que es nec
 ¿La asistencia a los cursos de ingreso es obligatorio?
 Depende de la modalidad que impone el docente a cargo.
 
-¿Se rinde para ingresar a la facultad de ciencias económicas?
+¿Se rinde exámen de ingreso para ingresar a la facultad de ciencias económicas?
 Sí. Para ingresar a la Facultad de Ciencias Económicas los nuevos alumnos en la institución deben rendir un exámen de ingreso, éste variará de acuerdo a la carrera que deseen cursar. 
 -	La carrera de “Contador Público” dispone de un ciclo introductorio compuesto por las materias “Introducción a la Matemática” e “Introducción a la Contabilidad”, ambas deben ser aprobadas sin excepción para que el alumno pueda posteriormente inscribirse cursar las subsiguientes materias del plan de estudio en el primer cuatrimestre.
 -	La carrera de “Licenciatura en Administración” dispone de dos cursillos de nivelación que son “Cursillo de Nivelación en Contabilidad” y “Cursillo de Nivelación en Matemática”, la no aprobación de alguna de las mismas impide al alumno inscribirse en algunas materias subsiguientes del plan de estudio. Si apruebas las dos podrás inscribirte y cursar con normalidad todas las materias subsiguientes del plan de estudio en el primer cuatrimestre.
