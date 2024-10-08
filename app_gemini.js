@@ -3,7 +3,6 @@ import express from 'express'
 
 //import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
-
 // This helps connect to our .env file
 import * as dotenv from "dotenv";
 dotenv.config();
@@ -24,9 +23,6 @@ import { loadQAStuffChain} from "langchain/chains";
 const app = express();
 const port = 3000;
 app.use(cors({origin: ['http://localhost:4200','http://10.3.0.62:4200',  'http://aplicaciones.fce.unju.edu.ar', 'http://aplicaciones.unju.edu.ar']}));
-
-
-
 
 
 const embeddingstext = new GoogleGenerativeAIEmbeddings({
@@ -80,12 +76,12 @@ app.listen(port, () => {
   
       
       // Search for the most similar document
-      console.log("Resultados de la busqueda:");
+      console.log("Pregunta:");
       console.log(question);
 
       const resultOne = await vectorStore.similaritySearch(question, 5);
-      console.log("Resultados de la busqueda:");
-      console.log(resultOne);
+      //console.log("Resultados de la busqueda:");
+      //console.log(resultOne);
 
 
 
@@ -98,15 +94,17 @@ app.listen(port, () => {
 
       const chainA = loadQAStuffChain(llm);
       var desde = Date.now();
-      const resA = await chainA.invoke({
+      var resA = await chainA.invoke({
+        input_language: "Spanish",
+        output_language: "Spanish",
         input_documents: resultOne,
         question,
       });
       var hasta = Date.now();
       console.log("Segundos transcurridos de la consulta: "+String((hasta - desde) / 1000));
       console.log(resA);
-  
-  
+
+      
       res.json({ result: resA }); // Send the response as JSON
   
     }  
@@ -115,4 +113,3 @@ app.listen(port, () => {
       res.status(500).json({ error: 'Internal Server Error' }); // Send an error response
     }
   })
-
