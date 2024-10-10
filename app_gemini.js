@@ -74,7 +74,7 @@ app.listen(port, () => {
                   Responde poniendote en el contexto de la Facultad de Ciencias Económicas de la Universidad Nacional de Jujuy. `
       if(req.query.pregunta!=null && req.query.pregunta!=""){
         question = req.query.pregunta +" ?";
-        question_contexto = prompt + req.query.pregunta;
+        question_contexto = prompt + req.query.pregunta + "?";
       };
   
   
