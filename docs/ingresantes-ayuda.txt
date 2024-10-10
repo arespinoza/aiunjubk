@@ -11,8 +11,8 @@ Los requisitos de ingreso a la Facultad de Ciencias Económicas de la UNJu son:
     - Un folio.
 
 
-LISTA DE OFERTAS ACADEMICAS DE CARRERAS O PROPUESTAS DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu
 
+OFERTAS ACADEMICAS DE CARRERAS O PROPUESTAS DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu
 Carrera de Contador Público: La carrera de Contador Público tiene una duración de 5 años. El alcance esta definido por el marco normativo vigente define las Actividades Reguladas para el desempeño profesional, según normativa nacional establecida en el Artículo 43 de la Ley 24521.
     - Diseñar, dirigir e implementar sistemas de información contable en todos los segmentos de la contabilidad y costos. 
     - Registrar, medir y exponer la información contable, histórica y proyectada, para todo tipo de organizaciones y unidades económicas. 
@@ -20,7 +20,6 @@ Carrera de Contador Público: La carrera de Contador Público tiene una duració
     - Realizar los procesos de sindicatura en sociedades, concursos y quiebras.
     - El Comité Ejecutivo del CIN, por Resolución CE nº 1042/15 aprobó el documento de trabajo titulado “Ejercicio para la reformulación de actividades reservadas”. En dicho documento, se fijaron como criterios que “las actividades reservadas son sólo un subconjunto dentro del total de alcances de cada título, de modo que, deben ser leídas en el marco de los alcances 
     completos de un título específico, cuya fijación es atribución de cada Universidad”.
-
 
 Carrera Licenciatura en Administración: La carrera tiene una duración de 4 años y medio. El alcance queda definido por.
     - 	Planeamiento, organización, dirección, ejecución y control de la actividad empresaria en su conjunto. 
