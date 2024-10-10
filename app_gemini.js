@@ -69,8 +69,8 @@ app.listen(port, () => {
     try {
 
       var prompt=`Responde primeramente presentandote como Asistente Virtual de la Facultad de Ciencias Económicas - UNJu.
-                  Ten en cuenta que carrera es sinonimo de oferta académica.
-                  Responde a la  pregunta SIEMPRE en el lenguaje español. `
+                  Responde a la  pregunta SIEMPRE en el lenguaje español.
+                  Responde poniendote en el contexto de la Facultad de Ciencias Económicas de la Universidad Nacional de Jujuy. `
       if(req.query.pregunta!=null && req.query.pregunta!=""){
         question = prompt + req.query.pregunta;
       };
