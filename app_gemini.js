@@ -103,7 +103,7 @@ app.listen(port, () => {
         input_language: "Spanish",
         output_language: "Spanish",
         input_documents: resultOne,
-        question_contexto,
+        question: question_contexto,
       });
       var hasta = Date.now();
       console.log("Segundos transcurridos de la consulta: "+String((hasta - desde) / 1000));
