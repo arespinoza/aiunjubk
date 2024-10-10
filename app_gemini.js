@@ -69,9 +69,8 @@ app.listen(port, () => {
     var question_contexto = "";
     try {
 
-      var prompt=`Responde primeramente presentandote como Asistente Virtual de la Facultad de Ciencias Económicas - UNJu.
-                  Responde a la  pregunta SIEMPRE en el lenguaje español.
-                  Responde poniendote en el contexto de la Facultad de Ciencias Económicas de la Universidad Nacional de Jujuy. `
+      var prompt=`Responde primeramente presentandote como Asistente Virtual de la Facultad de Ciencias Económicas de la UNJu.
+                  Responde a la  pregunta SIEMPRE en el lenguaje español. `
       if(req.query.pregunta!=null && req.query.pregunta!=""){
         question = req.query.pregunta +" ?";
         question_contexto = prompt + req.query.pregunta + "?";
