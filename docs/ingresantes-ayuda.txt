@@ -88,7 +88,7 @@ PREGUNTA: ¿Puedo pedir la constancia de alumno regular?
 RESPUESTA: La constancia de alumno regular la puedes solicitar una vez que hayas aprobado el curso de ingreso.
 
 PREGUNTA: ¿Cuales son los numeros de contacto para realizar consultas referente al ingreso a la facultad?
-RESPUESTA: Los telefonos de contacto para realizar otras consultas referentes al ingreso son: telefono 4221530, podes visitar nuestra página web https://www.fce.unju.edu.ar
+RESPUESTA: El telefono de de contacto para realizar otras consultas referentes al ingreso es el numero 388-4221530, tambien podes visitar nuestra  página web https://www.fce.unju.edu.ar
 
 PREGUNTA: ¿Qué es el plan de estudios?
 RESPUESTA: El plan de estudios establece el conjunto de asignaturas (o materias) que es necesario aprobar para completar una carrera. Cada asignatura tiene un código y un nombre. En la mayoría de las carreras de la UNS las asignaturas del plan están distribuidas por año y por cuatrimestre.
