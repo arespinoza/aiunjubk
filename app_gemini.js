@@ -72,7 +72,8 @@ app.listen(port, () => {
                   Responde a la  pregunta SIEMPRE en el lenguaje español.
                   Responde poniendote en el contexto de la Facultad de Ciencias Económicas de la Universidad Nacional de Jujuy. `
       if(req.query.pregunta!=null && req.query.pregunta!=""){
-        question = prompt + req.query.pregunta;
+        question = req.query.pregunta +" ?";
+        question_contexto = prompt + req.query.pregunta;
       };
   
   
@@ -81,7 +82,7 @@ app.listen(port, () => {
       console.log("Pregunta:");
       console.log(question);
 
-      const resultOne = await vectorStore.similaritySearch(question+"?", 5);
+      const resultOne = await vectorStore.similaritySearch(question, 5);
       console.log("Resultados de la busqueda:");
       console.log(resultOne);
 
@@ -100,7 +101,7 @@ app.listen(port, () => {
         input_language: "Spanish",
         output_language: "Spanish",
         input_documents: resultOne,
-        question,
+        question_contexto,
       });
       var hasta = Date.now();
       console.log("Segundos transcurridos de la consulta: "+String((hasta - desde) / 1000));
