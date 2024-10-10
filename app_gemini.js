@@ -68,7 +68,8 @@ app.listen(port, () => {
     var question = "";
     try {
 
-      var prompt="Responder en español. "
+      var prompt=`Responde primeramente presentandote como Asistente Virtual de la Facultad de Ciencias Económicas - UNJu.
+                  Responde a la  pregunta SIEMPRE en el lenguaje español. `
       if(req.query.pregunta!=null && req.query.pregunta!=""){
         question = prompt + req.query.pregunta;
       };
@@ -79,7 +80,7 @@ app.listen(port, () => {
       console.log("Pregunta:");
       console.log(question);
 
-      const resultOne = await vectorStore.similaritySearch(question, 5);
+      const resultOne = await vectorStore.similaritySearch(question+"?", 5);
       //console.log("Resultados de la busqueda:");
       //console.log(resultOne);
 
