@@ -66,6 +66,7 @@ app.listen(port, () => {
 
   app.get('/api/ask', async (req, res) => {
     var question = "";
+    var question_contexto = "";
     try {
 
       var prompt=`Responde primeramente presentandote como Asistente Virtual de la Facultad de Ciencias Económicas - UNJu.
