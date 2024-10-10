@@ -13,7 +13,7 @@ Los requisitos de ingreso a la Facultad de Ciencias Económicas de la UNJu son:
 
 
 OFERTAS ACADEMICAS DE CARRERAS O PROPUESTAS DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu
-Carrera de Contador Público: La carrera de Contador Público tiene una duración de 5 años. El alcance esta definido por el marco normativo vigente define las Actividades Reguladas para el desempeño profesional, según normativa nacional establecida en el Artículo 43 de la Ley 24521.
+CARRERA DE CONTADOR PÚBLICO: La carrera de Contador Público tiene una duración de 5 años. El alcance esta definido por el marco normativo vigente define las Actividades Reguladas para el desempeño profesional, según normativa nacional establecida en el Artículo 43 de la Ley 24521.
     - Diseñar, dirigir e implementar sistemas de información contable en todos los segmentos de la contabilidad y costos. 
     - Registrar, medir y exponer la información contable, histórica y proyectada, para todo tipo de organizaciones y unidades económicas. 
     - Dirigir y realizar procedimientos de auditoría, y dictaminar en materia contable e impositiva.
@@ -21,7 +21,7 @@ Carrera de Contador Público: La carrera de Contador Público tiene una duració
     - El Comité Ejecutivo del CIN, por Resolución CE nº 1042/15 aprobó el documento de trabajo titulado “Ejercicio para la reformulación de actividades reservadas”. En dicho documento, se fijaron como criterios que “las actividades reservadas son sólo un subconjunto dentro del total de alcances de cada título, de modo que, deben ser leídas en el marco de los alcances 
     completos de un título específico, cuya fijación es atribución de cada Universidad”.
 
-Carrera Licenciatura en Administración: La carrera tiene una duración de 4 años y medio. El alcance queda definido por.
+CARRERA DE LICENCIATURA EN ADMINISTRACIÓN: La carrera tiene una duración de 4 años y medio. El alcance queda definido por.
     - 	Planeamiento, organización, dirección, ejecución y control de la actividad empresaria en su conjunto. 
     -	Organización y ejecución de planes y políticas empresarias. 
     -	Organización de sistema de información empresarial y el manejo y aplicación de métodos cibernéticos a la administración y gestión empresarial. 
@@ -36,7 +36,7 @@ Carrera Licenciatura en Administración: La carrera tiene una duración de 4 añ
     -	Actuar en todos los aspectos como agente de promoción del Desarrollo Económico. 
     -	Realizar investigaciones científicas y tecnológicas en el campo de la ciencia de la administración.
 
-Carrera Licenciatura en Economía Política: La carrera tienen una duración de 4 años. El alcance de la carrera está sujeta a la Ley Nro. 20.488 (Ley reglamentaria del ejercicio de las profesiones en ciencias económicas en el ámbito nacional), cuyo Artículo 11 expresa que se requerirá título de Licenciado en Economía o equivalente (en este caso Licenciado en Economía Política).
+CARRERA DE LICECIATURA EN ECONOMÍA POLÍTICA: La carrera tienen una duración de 4 años. El alcance de la carrera está sujeta a la Ley Nro. 20.488 (Ley reglamentaria del ejercicio de las profesiones en ciencias económicas en el ámbito nacional), cuyo Artículo 11 expresa que se requerirá título de Licenciado en Economía o equivalente (en este caso Licenciado en Economía Política).
     -	Integrar equipos interdisciplinarios de investigación.
     -	Diseñar e implementar proyectos de investigación científica en el campo de la economía política.
     -	Coordinar equipos de trabajo interdisciplinarios en el campo de la economía política.
