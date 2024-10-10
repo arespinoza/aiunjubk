@@ -82,6 +82,7 @@ app.listen(port, () => {
       // Search for the most similar document
       console.log("Pregunta:");
       console.log(question);
+      console.log(question_contexto);
 
       const resultOne = await vectorStore.similaritySearch(question, 5);
       console.log("Resultados de la busqueda:");
