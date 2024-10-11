@@ -11,7 +11,7 @@ dotenv.config();
 import { GoogleGenerativeAIEmbeddings }  from "@langchain/google-genai";
 
 
-import { TaskType } from "@google/generative-ai";
+import { TaskType } from "@langchain/google-genai";
 
 import {TextLoader} from "langchain/document_loaders/fs/text";
 import {PDFLoader} from "langchain/document_loaders/fs/pdf";
