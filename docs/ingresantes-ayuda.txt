@@ -62,7 +62,6 @@ RESPUESTA: Si te inscribiste con anterioridad en algúna carrera de la Facultad 
 PREGUNTA: ¿Se paga para inscribirse a cursar algúna carrera?
 RESPUESTA: No, no se cobra para cursar cualquier carrera de la Facultad de Ciencias Económicas, la Universidad Nacional de Jujuy es pública y gratuita, no se cobra arancel por ninguna de nuestras carreras de grado.
 
-
 PREGUNTA: ¿Cual es la modalidad de cursado?
 RESPUESTA: La modalidad de cursado es presencial, se usa la modalidad virtual para algunas actividades que especifiquen los docentes.
 
@@ -70,7 +69,7 @@ PREGUNTA: ¿Que materias tengo que cursar?
 RESPUESTA: De acuerdo a la carrera que elegiste deberas cursar diferentes materias que estan establecidas en el plan de estudio. Los planes de estudio los puedes consultar en la aplicación de servicios FCE Digital. Los horarios de las materias las establecen los docentes unos días antes de iniciar el primer o segundo cuatrimestre.
 
 PREGUNTA: ¿Tengo que inscribirme para cursar las materias?
-RESPUESTA: Depende, si eres ingresante no debes inscribirte a las materias del curso de ingreso ya que se te inscribirá de manera automàtica. Solo los recursantes deben inscribirse por medio del sistema Siu Guaraní.
+RESPUESTA: Si eres ingresante no debes inscribirte a las materias del curso de ingreso ya que se te inscribirá de manera automàtica. Solo los alumnos recursantes deben inscribirse por medio del sistema Siu Guaraní.
 
 PREGUNTA: ¿Dónde puedo consultar los Planes de Estudio de las carreras?
 RESPUESTA: Los planes de estudio los puedo consultar entrando en la aplicación de servicios ServicioApp.
@@ -113,3 +112,15 @@ RESPUESTA: Las carreras que ofrece la facultad de Ciencias económicas para los 
             - Contador Público.
             - Licenciatura en Administración.
             - Licenciatura en Economía Política.
+
+PREGUNTA: ¿Cómo puedo obtener información sobre las becas disponibles?
+Respuesta: Puedes consultar el sitio de la Secretaria de Bienestar Universitario accediendo,  https://www.unju.edu.ar/secretaria_bienestar_universitario.html.
+
+Pregunta: ¿Dónde puedo encontrar el horario de clases?
+Respuesta: El horario de clases se publicará en la aplicación de servicios FCE Digital unos de uno a dos días habiles antes al inicio de los cursos de ingreso, enlace https://aplicaciones.unju.edu.ar/servicioapp (usuario "aspirante" y clave "aspirante").
+
+Pregunta: ¿Es posible cambiarme de carrera después de ingresar?
+Respuesta: El cambio de carrera se permite solo si ha pasado un año despues de haberte inscripto como ingresante.
+
+Pregunta: ¿Cómo funciona el sistema de tutorías para los ingresantes?
+Respuesta: Las tutorías son apoyos académicos que pueden ofrecerse a través de profesores o compañeros para ayudar en las materias.
