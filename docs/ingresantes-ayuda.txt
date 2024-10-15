@@ -2,15 +2,6 @@ FECHAS DE INTERES PARA EL INGRESO PARA EL CICLO LECTIVO 2025
 - La preinscripción a las carreras se realizará el día Lunes 04 de Noviembre via online accediendo al enlace https://preinscripcion.unju.edu.ar/preinscripcion/alumnoscentral/
 - La Inscripción definitiva se realizará de manera presencial en la facultad, ubicada en Calle Alvear 843 San Salvador de Jujuy, de acuerdo al turno que se asignó en la preinscripción. El día de tu turno deberás presentar los requisitos de ingreso  o documentación fisica para que sea validada con los requisitos de ingreso digitalizados y subidos al sistema de preinscripción.
 
-CUALES SON LOS REQUISITOS DE INGRESO A LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu?
-Los requisitos de ingreso a la Facultad de Ciencias Económicas de la UNJu son:
-    - FORMULARIO DE PREINSCRIPCIÓN COMPLETO E IMPRESO. Si eres nuevo en la UNJu te preinscribes en el sistema de Preinscripción. (Enlace Sistema de preinscripción: https://preinscripcion.unju.edu.ar/preinscripcion/alumnoscentral/  ), o bien si ya eres alumno de la facultad te preinscribes desde el sistema SIU Guaraní (Enlace al Sistema SIU Guaraní: https://alumnos.fce.unju.edu.ar
-    - FOTOCOPIA DE DNI ANVERSO Y REVERSO. Debes escanear y subir archivo digital al sistema. Este video te muestra una herramienta de como digitalizar el documento. Enlace al video: https://drive.google.com/file/d/1011i_ZmiXcMxA9shJMPh_nXKMdTwUEi-/view?pli=1
-    - FOTOCOPIA AUTENTICADA DEL TÍTULO DE NIVEL MEDIO O POLIMODAL. Debes escanear y subir el archivo digital al sistema. El archivo digital será validado por el personal de acuerdo a la versión impresa.
-    - CONSTANCIA DE TÍTULO EN TRAMITE. En caso de no disponer de la misma se aceptará provisoriamente la constancia de alumno regular. Debes escanear y subir el documento digital al sistema.
-    - Un folio.
-
-
 
 OFERTAS ACADEMICAS DE CARRERAS O PROPUESTAS DE LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu
 CARRERA DE CONTADOR PÚBLICO: La carrera de Contador Público tiene una duración de 5 años. El alcance esta definido por el marco normativo vigente define las Actividades Reguladas para el desempeño profesional, según normativa nacional establecida en el Artículo 43 de la Ley 24521.
@@ -49,6 +40,15 @@ CARRERA DE LICECIATURA EN ECONOMÍA POLÍTICA: La carrera tienen una duración d
 
 
 PREGUNTAS FRECUENTAS
+
+PREGUNTA: CUALES SON LOS REQUISITOS DE INGRESO A LA FACULTAD DE CIENCIAS ECONÓMICAS DE LA UNJu?
+RESPUESTA: Los requisitos de ingreso a la Facultad de Ciencias Económicas de la UNJu son los siguientes:
+    - FORMULARIO DE PREINSCRIPCIÓN COMPLETO E IMPRESO. Si eres nuevo en la UNJu te preinscribes en el sistema de Preinscripción. (Enlace Sistema de preinscripción: https://preinscripcion.unju.edu.ar/preinscripcion/alumnoscentral/  ), o bien si ya eres alumno de la facultad te preinscribes desde el sistema SIU Guaraní (Enlace al Sistema SIU Guaraní: https://alumnos.fce.unju.edu.ar
+    - FOTOCOPIA DE DNI ANVERSO Y REVERSO. Debes escanear y subir archivo digital al sistema. Este video te muestra una herramienta de como digitalizar el documento. Enlace al video: https://drive.google.com/file/d/1011i_ZmiXcMxA9shJMPh_nXKMdTwUEi-/view?pli=1
+    - FOTOCOPIA AUTENTICADA DEL TÍTULO DE NIVEL MEDIO O POLIMODAL. Debes escanear y subir el archivo digital al sistema. El archivo digital será validado por el personal de acuerdo a la versión impresa.
+    - CONSTANCIA DE TÍTULO EN TRAMITE. En caso de no disponer de la misma se aceptará provisoriamente la constancia de alumno regular. Debes escanear y subir el documento digital al sistema.
+    - Un folio.
+
 
 PREGUNTA: ¿Me puedo inscribir en la facultad si adeudo materias del secundario?
 RESPUESTA: Si, podes inscribirte si adeudas materias del secundario. En este caso quedarás inscripto/a como ALUMNO/A CONDICIONAL. Para ello tendrás que presentar una Constancia de Título en Trámite especificando que adeudas materias del secundario y cuales son.
