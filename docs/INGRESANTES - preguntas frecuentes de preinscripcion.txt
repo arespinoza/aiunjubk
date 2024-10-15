@@ -62,4 +62,4 @@ Respuesta: Uno de los pasos necesarios en el proceso de preinscripción es que h
 Respuesta: Si necesitas ayuda sobre como preinscribirte puedes consultar el vide "insctructivo del proceso de preinscripción".
 
 22) ¿Como me preinscribo si ya soy alumno de la Facultad de Ciencias Económicas o de otra Facultad o Unidad Académica perteneciente a la Universidad Nacional de Jujuy - UNJu?
-Respuesta: si ya soy alumno de la Facultad de Ciencias Económicas o de otra Facultad o Unidad Académica perteneciente a la Universidad Nacional de Jujuy debo acceder al sistema SIU GUARANÍ cuya dirección es https://alumnos.unju.edu.ar/unju
+Respuesta: si ya soy alumno de la Facultad de Ciencias Económicas o de otra Facultad o Unidad Académica perteneciente a la Universidad Nacional de Jujuy debo acceder al sistema SIU GUARANÍ cuya dirección es "https://alumnos.unju.edu.ar/unju".
