@@ -87,7 +87,7 @@ PREGUNTA: ¿Puedo pedir la constancia de alumno regular?
 RESPUESTA: La constancia de alumno regular la puedes solicitar una vez que hayas aprobado el curso de ingreso.
 
 PREGUNTA: ¿Cuales son los numeros de contacto para realizar consultas referente al ingreso a la facultad?
-RESPUESTA: El telefono de de contacto para realizar otras consultas referentes al ingreso es el numero 388-4221530, tambien podes visitar nuestra  página web https://www.fce.unju.edu.ar
+RESPUESTA: El telefono de de contacto para realizar otras consultas referentes al ingreso es el numero de WathsApp +54 9 388 5824022, o enviando un correo a dptoalumnos@face.unju.edu.ar tambien podes visitar nuestra  página web https://www.fce.unju.edu.ar.
 
 PREGUNTA: ¿Qué es el plan de estudios?
 RESPUESTA: El plan de estudios establece el conjunto de asignaturas (o materias) que es necesario aprobar para completar una carrera. Cada asignatura tiene un código y un nombre. En la mayoría de las carreras de la UNS las asignaturas del plan están distribuidas por año y por cuatrimestre.
@@ -124,3 +124,6 @@ Respuesta: El cambio de carrera se permite solo si ha pasado un año despues de 
 
 Pregunta: ¿Cómo funciona el sistema de tutorías para los ingresantes?
 Respuesta: Las tutorías son apoyos académicos que pueden ofrecerse a través de profesores o compañeros para ayudar en las materias.
+
+Pregunta: ¿Què carreras se dictan en el interior de la provincia?
+Respuesta: La facultad de Ciencias Económicas tiene sede en los Valles Perico-Monterrico, los alumnos puede realizar el primer año de la carrera de Licenciatura en Administración en la sede de los Valles para luego seguir el segundo año en la sede central de San Salvador de Jujuy.

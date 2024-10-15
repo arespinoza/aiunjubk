@@ -49,17 +49,17 @@ Respuesta: Si no recibiste el correo de confirmación del sistema de preinscripc
 17) No puedo cargar mis documentos o requisitos de ingreso. ¿Qué hago?
 Respuesta: Verifica que los archivos tengan el formato y tamaño permitido (generalmente PDF o JPG de menos de 2MB). Si el problema persiste, intenta desde otro navegador o borra la caché. Si el problema continúa, contactate a los contactos de ayuda.
 
-18. ¿Como hago para escanear los documentos?
+18) ¿Como hago para escanear los documentos?
 Respuesta: Para escanear los documentos solicitados en la preinscripción puedes utilizar un escaner vinculada a una pc o mediante el celular, si quieres saber como utilizar el celular para escanear en la sección de "recursos" de la aplicación FCE Digital tienes un video instructivo de como puedes escanear tus documentos, entra en https://aplicaciones.fce.unju.edu.ar/servicioapp (usuario "aspirante" y  clave asp"irante)
 
-19. ¿Cuándo comienzan las clases después de la inscripción?
+19) ¿Cuándo comienzan las clases después de la inscripción?
 Respuesta: Las fechas de inicio de clases de los cursos de ingreso serán publicados en la página de la facultad, tambien en la sección de "anuncios" de la aplicacion FCE Digital, entra en https://aplicaciones.fce.unju.edu.ar/servicioapp (usuario "aspirante" y clave "aspirante")
 
-20. ¿Cómo y cuándo se realiza la inscripción definitiva luego de la preinscripción?
+20) ¿Cómo y cuándo se realiza la inscripción definitiva luego de la preinscripción?
 Respuesta: Uno de los pasos necesarios en el proceso de preinscripción es que hagas la elección del turno o día en que completaras tu inscripción, de manera presencial, en las instalaciónes de la Facultad de Ciencias Económicas cuya dirección es Alvear 843 San Salvador de Jujuy.
 
-21. ¿Existe alguna ayuda para consultar sobre el proceso de preinscripción?
+21) ¿Existe alguna ayuda para consultar sobre el proceso de preinscripción?
 Respuesta: Si necesitas ayuda sobre como preinscribirte puedes consultar el vide "insctructivo del proceso de preinscripción".
 
-22. ¿Como me preinscribo si ya soy alumno de la Facultad de Ciencias Económicas o de otra Facultad o Unidad Académica perteneciente a la Universidad Nacional de Jujuy - UNJu?
+22) ¿Como me preinscribo si ya soy alumno de la Facultad de Ciencias Económicas o de otra Facultad o Unidad Académica perteneciente a la Universidad Nacional de Jujuy - UNJu?
 Respuesta: si ya soy alumno de la Facultad de Ciencias Económicas o de otra Facultad o Unidad Académica perteneciente a la Universidad Nacional de Jujuy debo acceder al sistema SIU GUARANÍ cuya dirección es https://alumnos.unju.edu.ar/unju
