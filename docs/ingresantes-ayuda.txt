@@ -54,7 +54,7 @@ PREGUNTA: ¿Me puedo inscribir en la facultad si adeudo materias del secundario?
 RESPUESTA: Si, podes inscribirte si adeudas materias del secundario. En este caso quedarás inscripto/a como ALUMNO/A CONDICIONAL. Para ello tendrás que presentar una Constancia de Título en Trámite especificando que adeudas materias del secundario y cuales son.
 
 PREGUNTA: ¿Donde debo inscribirme para cursar algúna carrera de la Facultad de Ciencias Económicas?
-RESPUESTA: Debes ingresar a la página https://preinscripcion.unju.edu.ar/preinscripcion/alumnoscentral/
+RESPUESTA: Si eres nuevo en la UNJu te preinscribes en el sistema de Preinscripción cuyo link es https://preinscripcion.unju.edu.ar/preinscripcion/alumnoscentral/ o bien si ya eres alumno de la facultad te preinscribes desde el sistema SIU Guaraní cuyo link es https://alumnos.fce.unju.edu.ar.
 
 PREGUNTA: ¿Si me inscribí con anterioridad en otra carrera de la facultad que tengo que hacer?
 RESPUESTA: Si te inscribiste con anterioridad en algúna carrera de la Facultad o de la Universidad debes preinscribirte usando el Sistema Siu Guaraní su dirección es https://guarani.unju.edu.ar/guarani3. El sistema SIU Guaraní lo usan los alumnos de la Universidad Nacional de Jujuy.
