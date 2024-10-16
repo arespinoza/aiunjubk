@@ -90,7 +90,8 @@ app.listen(port, () => {
 
 
       const llm = new ChatGoogleGenerativeAI({
-        modelName: "gemini-1.5-pro",
+        //modelName: "gemini-1.5-pro",
+        modelName: "gemini-1.5-flash",
         temperature: 0,
         maxRetries: 3,
       });
