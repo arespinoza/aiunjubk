@@ -84,8 +84,8 @@ app.listen(port, () => {
       console.log(question_contexto);
 
       const resultOne = await vectorStore.similaritySearch(question, 5);
-      console.log("Resultados de la busqueda:");
-      console.log(resultOne);
+      //console.log("Resultados de la busqueda:");
+      //console.log(resultOne);
 
 
 
