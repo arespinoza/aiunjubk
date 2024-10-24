@@ -104,9 +104,6 @@ RESPUESTA: Para ingresar a la Facultad de Ciencias Económicas los nuevos alumno
 PREGUNTA: ¿Cuando comienzan las clases?
 RESPUESTA: Los días y horarios de los cursos de ingreso estan definidos por calendario académico y están previstas para el mes de febrero del 2025.
 
-PREGUNTA: ¿Cuándo puedo inscribirme para el ciclo lectivo 2025?
-RESPUESTA: Todavía no estan definidas las fechas definitivas.
-
 PREGUNTA: ¿En qué carreras me puedo inscribir en la facultad de ciencias económicas?
 RESPUESTA: Las carreras que ofrece la facultad de Ciencias económicas para los ingresantes son:
             - Contador Público.
