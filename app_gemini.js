@@ -70,7 +70,7 @@ app.listen(port, () => {
     try {
 
       var prompt=`Responde primeramente presentandote como Asistente Virtual de la Facultad de Ciencias Económicas de la UNJu.
-                  Responde a la  pregunta SIEMPRE en el lenguaje español. `
+                  Responde a la  pregunta SIEMPRE en el lenguaje español. No obtengas información de otra universidad diferente a la Universidad Nacional de Jujuy. La pregunta es: `
       if(req.query.pregunta!=null && req.query.pregunta!=""){
         question = req.query.pregunta +" ?";
         question_contexto = prompt + req.query.pregunta + "?";
