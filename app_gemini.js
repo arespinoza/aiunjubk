@@ -40,8 +40,8 @@ const loader = new DirectoryLoader("./docs",{
 })
 const docs = await loader.load();
 const textSplitter = new RecursiveCharacterTextSplitter({
-  chunkSize: 5000,
-  chunkOverlap: 500,
+  chunkSize: 6000,
+  chunkOverlap: 600,
 })
 const docOutput = await textSplitter.splitDocuments(docs)
 // Load the docs into the vector store
