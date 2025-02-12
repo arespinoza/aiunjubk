@@ -40,8 +40,8 @@ const loader = new DirectoryLoader("./docs",{
 })
 const docs = await loader.load();
 const textSplitter = new RecursiveCharacterTextSplitter({
-  chunkSize: 6000,
-  chunkOverlap: 600,
+  chunkSize: 5000,
+  chunkOverlap: 500,
 })
 const docOutput = await textSplitter.splitDocuments(docs)
 // Load the docs into the vector store
@@ -85,7 +85,7 @@ app.listen(port, () => {
       console.log(question);
       console.log(question_contexto);
 
-      const resultOne = await vectorStore.similaritySearch(question, 8);
+      const resultOne = await vectorStore.similaritySearch(question, 5);
       //console.log("Resultados de la busqueda:");
       //console.log(resultOne);
 
