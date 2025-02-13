@@ -71,7 +71,7 @@ app.listen(port, () => {
 
       var prompt=`Responde primeramente presentandote como Asistente Virtual de la Facultad de Ciencias Económicas de la UNJu, luego agrega una linea en blanco.
                   Responde a la  pregunta SIEMPRE en el lenguaje español. No obtengas información de otra universidad diferente a la Universidad Nacional de Jujuy.
-                  Si se pregunta por una materia responder siempre diferenciando a que carrera pertenece la materia.
+                  Si se pregunta por una materia responder siempre diferenciando a que carrera pertenece la materia. el nombre de una materia puede ser el mismo en diferentes carreras pero son materias diferentes con contenidos minimos diferentes.
                   Al final de la respuesta agrega una linea vacia y pon este texto "Si no obtienes resultados puedes plantear la pregunta de otra manera".
                   La pregunta es: `
       if(req.query.pregunta!=null && req.query.pregunta!=""){
