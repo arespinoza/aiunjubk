@@ -1,0 +1,905 @@
+SISTEMA DE CORRELATIVAS DE LA CARRERA DE LICENCIATURA EN ECONOMÍA POLÍTICA – PLAN 2015
+
+
+
+Código Asignatura: (EP01)
+Nombre Asignatura: Principios de Economía Política
+* Sin Correlativas
+
+Código Asignatura: (EP02)
+Asignatura: Problemas Filosóficos
+* Sin Correlativas
+
+Código Asignatura: (EP03)
+Asignatura: Contabilidad y Administración para Economistas
+* Sin Correlativas
+
+Código Asignatura: (EP04)
+Asignatura: Algebra y Geometría Analítica
+Correlativas para Cursar:
+* 816fce - Tener aprobado Cursillo de Matemáticas - Que el alumno haya aprobado el cursillo de Matemática
+Correlativas para Rendir:
+* 816fce - Tener aprobado Cursillo de Matemáticas - Que el alumno haya aprobado el cursillo de Matemática
+
+Código Asignatura: (EP05)
+Asignatura: Introducción a las Ciencias Sociales
+Correlativas para Cursar:
+* Problemas Filosóficos - Regularizada
+Correlativas para Rendir:
+* Problemas Filosóficos - Aprobada
+
+Código Asignatura: (EP06)
+Asignatura: Análisis Matemático
+Correlativas para Cursar:
+* Algebra y Geometría Analítica - Regularizada
+Correlativas para Rendir:
+* Algebra y Geometría Analítica - Aprobada
+
+Código Asignatura: (EP07)
+Asignatura: Geografía Económica
+Correlativas para Cursar:
+* Principios de Economía Política - Regularizada
+Correlativas para Rendir:
+* Principios de Economía Política - Aprobada
+
+Código Asignatura: (EP08)
+Asignatura: Microeconomía
+Correlativas para Cursar:
+* Algebra y Geometría Analítica - Regularizada
+* Principios de Economía Política - Regularizada
+Correlativas para Rendir:
+* Algebra y Geometría Analítica - Aprobada
+* Principios de Economía Política - Aprobada
+
+Código Asignatura: (EP09)
+Asignatura: Estadística
+Correlativas para Cursar:
+* Algebra y Geometría Analítica - Aprobada
+* Análisis Matemático - Regularizada
+Correlativas para Rendir:
+* Algebra y Geometría Analítica - Aprobada
+* Análisis Matemático – Aprobada
+
+Código Asignatura: (EP10)
+Asignatura: Macroeconomía
+Correlativas para Cursar:
+* Microeconomía - Regularizada
+* Análisis Matemático - Regularizada
+* Introducción a las Ciencias Sociales - Regularizada
+* Problemas Filosóficos - Regularizada
+* Principios de Economía Política - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+Correlativas para Rendir:
+* Microeconomía - Aprobada
+* Análisis Matemático - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+* Problemas Filosóficos - Aprobada
+* Principios de Economía Política - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+
+Código Asignatura: (EP11)
+Asignatura: Teoría Política y Derecho Público
+Correlativas para Cursar:
+* Introducción a las Ciencias Sociales - Regularizada
+* Problemas Filosóficos - Regularizada
+Correlativas para Rendir:
+* Introducción a las Ciencias Sociales - Aprobada
+* Problemas Filosóficos - Aprobada
+
+Código Asignatura: (EP12)
+Asignatura: Economía Agropecuaria e Industrial
+Correlativas para Cursar:
+* Microeconomía - Regularizada
+* Geografía Económica - Regularizada
+* Principios de Economía Política - Aprobada
+Correlativas para Rendir:
+* Microeconomía - Aprobada
+* Geografía Económica - Aprobada
+* Principios de Economía Política - Aprobada
+
+Código Asignatura: (EP13)
+Asignatura: Historia Económica y Social I
+Correlativas para Cursar:
+* Macroeconomía - Regularizada
+* Teoría Política y Derecho Público - Regularizada
+* Microeconomía - Regularizada
+* Introducción a las Ciencias Sociales - Regularizada
+* Principios de Economía Política - Aprobada
+* Problemas Filosóficos - Aprobada
+Correlativas para Rendir:
+* Macroeconomía - Aprobada
+* Teoría Política y Derecho Público - Aprobada
+* Microeconomía - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+* Principios de Economía Política - Aprobada
+* Problemas Filosóficos - Aprobada
+
+Código Asignatura: (EP14)
+Asignatura: Estadística Inferencial
+Correlativas para Cursar:
+* Estadística - Regularizada
+* Análisis Matemático - Regularizada
+* Algebra y Geometría Analítica - Aprobada
+Correlativas para Rendir:
+* Estadística - Aprobada
+* Análisis Matemático - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+
+Código Asignatura: (EP15)
+Asignatura: Cuentas Nacionales
+Correlativas para Cursar:
+* Macroeconomía - Regularizada
+* Microeconomía - Regularizada
+* Análisis Matemático - Regularizada
+* Contabilidad y Administración para Economistas - Aprobada
+Correlativas para Rendir:
+* Macroeconomía - Aprobada
+* Microeconomía - Aprobada
+* Análisis Matemático - Aprobada
+* Contabilidad y Administración para Economistas - Aprobada
+
+Código Asignatura: (EP16)
+Asignatura: Mercado de Capitales y Elementos de Cálculo Financiero
+Correlativas para Cursar:
+* Estadística - Regularizada
+* Macroeconomía - Regularizada
+* Microeconomía - Regularizada
+* Análisis Matemático - Regularizada
+* Contabilidad y Administración para Economistas - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+Correlativas para Rendir:
+* Estadística - Aprobada
+* Macroeconomía - Aprobada
+* Microeconomía - Aprobada
+* Análisis Matemático - Aprobada
+* Contabilidad y Administración para Economistas - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+
+Código Asignatura: (EP17)
+Asignatura: Historia Económica y Social II
+Correlativas para Cursar:
+* Historia Económica y Social I - Regularizada
+* Macroeconomía - Regularizada
+* Teoría Política y Derecho Público - Regularizada
+* Microeconomía - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+Correlativas para Rendir:
+* Historia Económica y Social I - Aprobada
+* Macroeconomía - Aprobada
+* Teoría Política y Derecho Público - Aprobada
+* Microeconomía - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+
+Código Asignatura: (EP18)
+Asignatura: Desarrollo Económico Regional
+Correlativas para Cursar:
+* Macroeconomía - Regularizada
+* Microeconomía - Regularizada
+* Economía Agropecuaria e Industrial - Regularizada
+* Principios de Economía Política - Aprobada
+Correlativas para Rendir:
+* Macroeconomía - Aprobada
+* Microeconomía - Aprobada
+* Economía Agropecuaria e Industrial - Aprobada
+* Principios de Economía Política - Aprobada
+
+Código Asignatura: (EP19)
+Asignatura: Econometría
+Correlativas para Cursar:
+* Estadística Inferencial - Regularizada
+* Estadística - Aprobada
+Correlativas para Rendir:
+* Estadística Inferencial - Aprobada
+* Estadística - Aprobada
+
+Código Asignatura: (EP20)
+Asignatura: Finanzas Públicas
+Correlativas para Cursar:
+* Cuentas Nacionales - Regularizada
+* Macroeconomía - Regularizada
+* Teoría Política y Derecho Público - Regularizada
+* Microeconomía - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+Correlativas para Rendir:
+* Cuentas Nacionales - Aprobada
+* Macroeconomía - Aprobada
+* Teoría Política y Derecho Público - Aprobada
+* Microeconomía - Aprobada
+* Introducción a las Ciencias Sociales – Aprobada
+
+Código Asignatura: (EP21)
+Asignatura: Dinero, Créditos y Bancos
+Correlativas para Cursar:
+* Econometría - Regularizada
+* Estadística Inferencial - Regularizada
+* Macroeconomía - Aprobada
+Correlativas para Rendir:
+* Econometría - Aprobada
+* Estadística Inferencial - Aprobada
+* Macroeconomía - Aprobada
+
+Código Asignatura: (EP22)
+Asignatura: Historia del Pensamiento Económico
+Correlativas para Cursar:
+* Historia Económica y Social II - Regularizada
+* Historia Económica y Social I - Regularizada
+* Teoría Política y Derecho Público - Aprobada
+Correlativas para Rendir:
+* Historia Económica y Social II - Aprobada
+* Historia Económica y Social I - Aprobada
+* Teoría Política y Derecho Público - Aprobada
+
+Código Asignatura: (EP23)
+Asignatura: Formulación y Evaluación de Proyectos
+Correlativas para Cursar:
+* Mercado de Capitales y Elementos de Cálculo Financiero - Regularizada
+* Macroeconomía - Regularizada
+* Estadística - Regularizada
+* Microeconomía - Aprobada
+* Análisis Matemático - Aprobada
+Correlativas para Rendir:
+* Mercado de Capitales y Elementos de Cálculo Financiero - Aprobada
+* Macroeconomía - Aprobada
+* Estadística - Aprobada
+* Microeconomía - Aprobada
+* Análisis Matemático - Aprobada
+
+Código Asignatura: (EP24)
+Asignatura: Problemas Económicos I
+Correlativas para Cursar:
+* Econometría - Regularizada
+* Macroeconomía - Regularizada
+* Microeconomía - Aprobada
+* Análisis Matemático - Aprobada
+Correlativas para Rendir:
+* Econometría - Aprobada
+* Macroeconomía - Aprobada
+* Microeconomía - Aprobada
+* Análisis Matemático - Aprobada
+
+Código Asignatura: (EP25)
+Asignatura: Metodología de la Investigación
+Correlativas para Cursar:
+* Historia Económica y Social II - Regularizada
+* Historia Económica y Social I - Regularizada
+* Estadística - Aprobada
+Correlativas para Rendir:
+* Historia Económica y Social II - Aprobada
+* Historia Económica y Social I - Aprobada
+* Estadística - Aprobada
+
+Código Asignatura: (EP26)
+Asignatura: Economía Internacional
+Correlativas para Cursar:
+* Problemas Económicos I - Regularizada
+* Econometría - Regularizada
+* Macroeconomía - Aprobada
+* Estadística Inferencial - Aprobada
+Correlativas para Rendir:
+* Problemas Económicos I - Aprobada
+* Econometría - Aprobada
+* Macroeconomía - Aprobada
+* Estadística Inferencial - Aprobada
+
+Código Asignatura: (EP27)
+Asignatura: Problemas Económicos II
+Correlativas para Cursar:
+* Problemas Económicos I - Regularizada
+* Econometría - Regularizada
+* Macroeconomía - Aprobada
+* Estadística Inferencial - Aprobada
+Correlativas para Rendir:
+* Problemas Económicos I - Aprobada
+* Econometría - Aprobada
+* Macroeconomía - Aprobada
+* Estadística Inferencial - Aprobada
+
+Código Asignatura: (EP28)
+Asignatura: Economía Laboral y de la Distribución
+Correlativas para Cursar:
+* Historia Económica y Social II - Regularizada
+* Historia Económica y Social I - Regularizada
+* Macroeconomía - Aprobada
+* Teoría Política y Derecho Público - Aprobada
+Correlativas para Rendir:
+* Historia Económica y Social II - Aprobada
+* Historia Económica y Social I - Aprobada
+* Macroeconomía - Aprobada
+* Teoría Política y Derecho Público - Aprobada
+
+Código Asignatura: (EP29)
+Asignatura: Estructura Económica Argentina
+Correlativas para Cursar:
+* Economía Laboral y de la Distribución - Regularizada
+* Historia Económica y Social II - Regularizada
+* Historia Económica y Social I - Aprobada
+Correlativas para Rendir:
+* Economía Laboral y de la Distribución - Aprobada
+* Historia Económica y Social II - Aprobada
+* Historia Económica y Social I - Aprobada
+
+Código Asignatura: (EP30)
+Asignatura: Seminario de Tesis
+Correlativas para Cursar:
+* Metodología de la Investigación - Regularizada
+* Historia del Pensamiento Económico - Regularizada
+* Econometría - Regularizada
+Correlativas para Rendir:
+* Metodología de la Investigación - Aprobada
+* Historia del Pensamiento Económico - Aprobada
+* Econometría - Aprobada
+
+Código Asignatura: (PO)
+Asignatura: Portugués
+Correlativas para Cursar:
+* Principios de Economía Política - Aprobada
+* Problemas Filosóficos - Aprobada
+* Contabilidad y Administración para Economistas - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+* Análisis Matemático - Aprobada
+* Geografía Económica - Aprobada
+* Microeconomía - Aprobada
+Correlativas para Rendir:
+* Principios de Economía Política - Aprobada
+* Problemas Filosóficos - Aprobada
+* Contabilidad y Administración para Economistas - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+* Análisis Matemático - Aprobada
+* Geografía Económica - Aprobada
+* Microeconomía - Aprobada
+
+Código Asignatura: (I)
+Asignatura: Inglés
+Correlativas para Cursar:
+* Principios de Economía Política - Aprobada
+* Problemas Filosóficos - Aprobada
+* Contabilidad y Administración para Economistas - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+* Análisis Matemático - Aprobada
+* Geografía Económica - Aprobada
+* Microeconomía - Aprobada
+Correlativas para Rendir:
+* Principios de Economía Política - Aprobada
+* Problemas Filosóficos - Aprobada
+* Contabilidad y Administración para Economistas - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+* Análisis Matemático - Aprobada
+* Geografía Económica - Aprobada
+* Microeconomía – Aprobada
+
+Código Asignatura: (EEP01)
+Asignatura: Economía de la Educación
+Correlativas para Cursar:
+* Tener n materias aprobadas -
+Correlativas para Rendir:
+* Tener n materias aprobadas -
+
+Código Asignatura: (EEP02)
+Asignatura: Economía de la Salud
+Correlativas para Cursar:
+* Tener n materias aprobadas -
+Correlativas para Rendir:
+* Tener n materias aprobadas -
+
+Código Asignatura: (EEP03)
+Asignatura: Economía Ambiental y de los Recursos Naturales
+Correlativas para Cursar:
+* Tener n materias aprobadas -
+Correlativas para Rendir:
+* Tener n materias aprobadas -
+
+Código Asignatura: (EEP04)
+Asignatura: Economía Social
+Correlativas para Cursar:
+* Tener n materias aprobadas -
+Correlativas para Rendir:
+* Tener n materias aprobadas -
+
+Código Asignatura: (EEP05)
+Asignatura: Economía y Regulación de los Servicios Públicos
+Correlativas para Cursar:
+* Tener n materias aprobadas -
+Correlativas para Rendir:
+* Tener n materias aprobadas -
+
+Código Asignatura: (EEP06)
+Asignatura: Antropología Económica
+Correlativas para Cursar:
+* Tener n materias aprobadas -
+Correlativas para Rendir:
+* Tener n materias aprobadas -
+
+
+
+
+
+SISTEMA DE CORRELATIVAS DE LA CARRERA LICENCIATURA EN ADMINISTRACIÓN – PLAN 2000
+
+
+Código Asignatura: (CB1)
+Asignatura: Introducción a la Contabilidad
+Correlativas para Cursar:
+- 816fce-Tener aprobado cursillo de Contabilidad-Que el alumno haya aprobado el cursillo de Contabilidad
+Correlativas para Rendir:
+- 816fce-Tener aprobado cursillo de Contabilidad-Que el alumno haya aprobado el cursillo de Contabilidad
+
+Código Asignatura: (CB2)
+Asignatura: Algebra y Geometría Analítica
+Correlativas para Cursar:
+- 816fce-Tener aprobado Cursillo de Matemáticas-Que el alumno haya aprobado el cursillo de Matemática
+Correlativas para Rendir:
+- 816fce-Tener aprobado Cursillo de Matemáticas-Que el alumno haya aprobado el cursillo de Matemática
+
+Código Asignatura: (CB3)
+Asignatura: Teoría General de la Administración
+Sin Correlativas
+
+Código Asignatura: (CB4)
+Asignatura: Contabilidad Básica
+Correlativas para Cursar:
+- Introducción a la Contabilidad - Regularizada
+Correlativas para Rendir:
+- Introducción a la Contabilidad - Aprobada
+
+Código Asignatura: (CB5)
+Asignatura: Introducción a la Economía
+Correlativas para Cursar:
+- Algebra y Geometría Analítica - Regularizada
+Correlativas para Rendir:
+- Algebra y Geometría Analítica - Aprobada
+
+Código Asignatura: (CB6)
+Asignatura: Análisis Matemático
+Correlativas para Cursar:
+- Algebra y Geometría Analítica - Regularizada
+Correlativas para Rendir:
+- Algebra y Geometría Analítica - Aprobada
+
+Código Asignatura: (CB7)
+Asignatura: Introducción a las Ciencias Sociales
+Sin Correlativas
+
+Código Asignatura: (A8)
+Asignatura: Análisis Sico Social de las Organizaciones
+Correlativas para Cursar:
+- Introducción a las Ciencias Sociales - Regularizada
+- Teoría General de la Administración - Regularizada
+Correlativas para Rendir:
+- Introducción a las Ciencias Sociales - Aprobada
+- Teoría General de la Administración - Aprobada
+
+Código Asignatura: (A9)
+Asignatura: Estadística
+Correlativas para Cursar:
+- Análisis Matemático - Regularizada
+- Algebra y Geometría Analítica - Regularizada
+Correlativas para Rendir:
+- Algebra y Geometría Analítica - Aprobada
+- Análisis Matemático - Aprobada
+
+Código Asignatura: (A10)
+Asignatura: Estructuras y Procesos
+Correlativas para Cursar:
+- Teoría General de la Administración - Regularizada
+Correlativas para Rendir:
+- Teoría General de la Administración - Aprobada
+
+Código Asignatura: (A11)
+Asignatura: Derecho Privado
+Correlativas para Cursar:
+- Introducción a las Ciencias Sociales - Regularizada
+Correlativas para Rendir:
+- Introducción a las Ciencias Sociales - Aprobada
+
+Código Asignatura: (A12)
+Asignatura: Elementos y Sistemas de Costos
+Correlativas para Cursar:
+- Contabilidad Básica - Regularizada
+- Análisis Matemático - Regularizada
+- Introducción a la Contabilidad - Aprobada
+- Algebra y Geometría Analítica - Aprobada
+Correlativas para Rendir:
+- Algebra y Geometría Analítica - Aprobada
+- Análisis Matemático - Aprobada
+- Contabilidad Básica - Aprobada
+- Introducción a la Contabilidad - Aprobada
+
+Código Asignatura:  (A13)
+Asignatura: Informática
+Correlativas para Cursar:
+- Teoría General de la Administración - Aprobada
+- Estructuras y Procesos - Regularizada
+Correlativas para Rendir:
+- Estructuras y Procesos - Aprobada
+- Teoría General de la Administración - Aprobada
+
+Código Asignatura: (A14)
+Asignatura: Microeconomía
+Correlativas para Cursar:
+- Introducción a la Economía - Regularizada
+- Análisis Matemático - Regularizada
+- Algebra y Geometría Analítica - Aprobada
+Correlativas para Rendir:
+- Introducción a la Economía - Aprobada
+- Análisis Matemático - Aprobada
+- Algebra y Geometría Analítica - Aprobada
+
+Código Asignatura: (A15)
+Asignatura: Derecho Constitucional y Administrativo
+Correlativas para Cursar:
+- Derecho Privado - Regularizada
+- Introducción a las Ciencias Sociales - Aprobada
+Correlativas para Rendir:
+- Derecho Privado - Aprobada
+- Introducción a las Ciencias Sociales - Aprobada
+
+Código Asignatura: (A16)
+Asignatura: Análisis de Estados Contables
+Correlativas para Cursar:
+- Elementos y Sistemas de Costos - Regularizada
+- Contabilidad Básica - Aprobada
+- Análisis Matemático - Aprobada
+Correlativas para Rendir:
+- Elementos y Sistemas de Costos - Aprobada
+- Análisis Matemático - Aprobada
+- Contabilidad Básica - Aprobada
+
+Código Asignatura:  (A17)
+Asignatura: Sistemas de Información
+Correlativas para Cursar:
+- Informática - Regularizada
+- Estructuras y Procesos - Regularizada
+- Contabilidad Básica - Aprobada
+Correlativas para Rendir:
+- Informática - Aprobada
+- Estructuras y Procesos - Aprobada
+- Contabilidad Básica - Aprobada
+
+Código Asignatura:  (A18)
+Asignatura: Macroeconomía
+Correlativas para Cursar:
+- Microeconomía - Regularizada
+- Estadística - Regularizada
+- Introducción a las Ciencias Sociales - Aprobada
+- Análisis Matemático - Aprobada
+- Introducción a la Economía - Aprobada
+Correlativas para Rendir:
+- Microeconomía - Aprobada
+- Estadística - Aprobada
+- Introducción a la Economía - Aprobada
+- Análisis Matemático - Aprobada
+- Introducción a las Ciencias Sociales - Aprobada
+
+Código Asignatura: (A19)
+Asignatura: Administración de Recursos Humanos
+Correlativas para Cursar:
+- Sistemas de Información - Regularizada
+- Informática - Regularizada
+- Estructuras y Procesos - Aprobada
+- Análisis Sico Social de las Organizaciones - Aprobada
+Correlativas para Rendir:
+- Sistemas de Información - Aprobada
+- Informática - Aprobada
+- Estructuras y Procesos - Aprobada
+- Análisis Sico Social de las Organizaciones – Aprobada
+
+Código Asignatura: (A20)
+Asignatura: Derecho Laboral
+Correlativas para Cursar:
+- Derecho Constitucional y Administrativo - Regularizada
+- Derecho Privado - Aprobada
+Correlativas para Rendir:
+- Derecho Privado - Aprobada
+- Derecho Constitucional y Administrativo - Aprobada
+
+Código Asignatura: (A21)
+Asignatura: Historia Económica y Social
+Correlativas para Cursar:
+* Macroeconomía - Regularizada
+* Microeconomía - Regularizada
+* Estadística - Regularizada
+Correlativas para Rendir:
+* Microeconomía - Aprobada
+* Macroeconomía - Aprobada
+* Estadística - Aprobada
+
+Código Asignatura: (A22)
+Asignatura: Cálculo Financiero
+Correlativas para Cursar:
+* Estadística - Aprobada
+Correlativas para Rendir:
+* Estadística - Aprobada
+
+Código Asignatura: (A23)
+Asignatura: Administración Financiera
+Correlativas para Cursar:
+* Cálculo Financiero - Regularizada
+* Sistemas de Información - Regularizada
+* Macroeconomía - Regularizada
+* Informática - Aprobada
+* Microeconomía - Aprobada
+Correlativas para Rendir:
+* Cálculo Financiero - Aprobada
+* Sistemas de Información - Aprobada
+* Macroeconomía - Aprobada
+* Microeconomía - Aprobada
+* Informática - Aprobada
+
+Código Asignatura: (A24)
+Asignatura: Sistemas de Administración Financiera y Control del Sector Público
+Correlativas para Cursar:
+* Derecho Constitucional y Administrativo - Regularizada
+* Macroeconomía - Regularizada
+* Derecho Privado - Aprobada
+* Microeconomía - Aprobada
+* Estadística - Aprobada
+Correlativas para Rendir:
+* Derecho Constitucional y Administrativo - Aprobada
+* Macroeconomía - Aprobada
+* Derecho Privado - Aprobada
+* Microeconomía - Aprobada
+* Estadística - Aprobada
+
+Código Asignatura: (A25)
+Asignatura: Marketing
+Correlativas para Cursar:
+* Macroeconomía - Regularizada
+* Estadística - Aprobada
+* Microeconomía - Aprobada
+* Análisis Sico Social de las Organizaciones - Aprobada
+Correlativas para Rendir:
+* Macroeconomía - Aprobada
+* Estadística - Aprobada
+* Microeconomía - Aprobada
+* Análisis Sico Social de las Organizaciones - Aprobada
+
+Código Asignatura: (A26)
+Asignatura: Metodología de la Investigación
+Correlativas para Cursar:
+* Historia Económica y Social - Regularizada
+* Sistemas de Información - Regularizada
+* Macroeconomía - Regularizada
+* Informática - Aprobada
+* Microeconomía - Aprobada
+* Estadística - Aprobada
+Correlativas para Rendir:
+* Historia Económica y Social - Aprobada
+* Sistemas de Información - Aprobada
+* Macroeconomía - Aprobada
+* Informática - Aprobada
+* Microeconomía - Aprobada
+* Estadística - Aprobada
+
+Código Asignatura: (A27)
+Asignatura: Administración de la Producción
+Correlativas para Cursar:
+* Administración de Recursos Humanos - Regularizada
+* Derecho Laboral - Regularizada
+* Sistemas de Información - Aprobada
+Correlativas para Rendir:
+* Administración de Recursos Humanos - Aprobada
+* Derecho Laboral - Aprobada
+* Sistemas de Información - Aprobada
+
+Código Asignatura: (A28)
+Asignatura: Régimen Tributario
+Correlativas para Cursar:
+* Sistemas de Administración Financiera y Control del Sector Público - Regularizada
+* Derecho Constitucional y Administrativo - Aprobada
+* Macroeconomía - Aprobada
+Correlativas para Rendir:
+* Sistemas de Administración Financiera y Control del Sector Público - Aprobada
+* Derecho Constitucional y Administrativo - Aprobada
+* Macroeconomía - Aprobada
+
+Código Asignatura: (A29)
+Asignatura: Derecho Societario
+Correlativas para Cursar:
+* Derecho Constitucional y Administrativo - Aprobada
+Correlativas para Rendir:
+* Derecho Constitucional y Administrativo - Aprobada
+
+Código Asignatura: (A30)
+Asignatura: Formulación y Evaluación de Proyectos
+Correlativas para Cursar:
+* Administración Financiera - Regularizada
+* Cálculo Financiero - Regularizada
+* Marketing - Regularizada
+* Sistemas de Información - Aprobada
+* Macroeconomía - Aprobada
+Correlativas para Rendir:
+* Cálculo Financiero - Aprobada
+* Administración Financiera - Aprobada
+* Marketing - Aprobada
+* Sistemas de Información - Aprobada
+* Macroeconomía - Aprobada
+
+Código Asignatura: (A33)
+Asignatura: Práctica Profesional
+Correlativas para Cursar:
+* Administración de la Producción - Regularizada
+* Régimen Tributario - Regularizada
+* Derecho Societario - Regularizada
+* Formulación y Evaluación de Proyectos - Regularizada
+* Sistemas de Administración Financiera y Control del Sector Público - Regularizada
+* Administración Financiera - Regularizada
+* Marketing - Regularizada
+* Administración de Recursos Humanos - Aprobada
+* Derecho Laboral - Aprobada
+* Cálculo Financiero - Aprobada
+Correlativas para Rendir:
+* Administración de la Producción - Aprobada
+* Régimen Tributario - Aprobada
+* Derecho Societario - Aprobada
+* Formulación y Evaluación de Proyectos - Aprobada
+* Sistemas de Administración Financiera y Control del Sector Público - Aprobada
+* Administración Financiera - Aprobada
+* Marketing - Aprobada
+* Administración de Recursos Humanos - Aprobada
+* Derecho Laboral - Aprobada
+* Cálculo Financiero – Aprobada
+
+Código Asignatura: (A34)
+Asignatura: Seminario Final
+Correlativas para Cursar:
+* Administración de la Producción - Regularizada
+* Régimen Tributario - Regularizada
+* Derecho Societario - Regularizada
+* Formulación y Evaluación de Proyectos - Regularizada
+* Metodología de la Investigación - Regularizada
+* Sistemas de Administración Financiera y Control del Sector Público - Regularizada
+* Administración Financiera - Regularizada
+* Marketing - Regularizada
+* Historia Económica y Social - Aprobada
+* Administración de Recursos Humanos - Aprobada
+* Derecho Laboral - Aprobada
+* Cálculo Financiero - Aprobada
+Correlativas para Rendir:
+* Administración de la Producción - Aprobada
+* Régimen Tributario - Aprobada
+* Derecho Societario - Aprobada
+* Formulación y Evaluación de Proyectos - Aprobada
+* Metodología de la Investigación - Aprobada
+* Sistemas de Administración Financiera y Control del Sector Público - Aprobada
+* Administración Financiera - Aprobada
+* Marketing - Aprobada
+* Historia Económica y Social - Aprobada
+* Administración de Recursos Humanos - Aprobada
+* Derecho Laboral - Aprobada
+* Cálculo Financiero - Aprobada
+
+Código Asignatura: (IN)
+Asignatura: Inglés
+Correlativas para Cursar:
+* Introducción a la Contabilidad - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+* Teoría General de la Administración - Aprobada
+* Contabilidad Básica - Aprobada
+* Introducción a la Economía - Aprobada
+* Análisis Matemático - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+Correlativas para Rendir:
+* Introducción a la Contabilidad - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+* Teoría General de la Administración - Aprobada
+* Contabilidad Básica - Aprobada
+* Introducción a la Economía - Aprobada
+* Análisis Matemático - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+
+Código Asignatura: (P)
+Asignatura: Portugués
+Correlativas para Cursar:
+* Introducción a la Contabilidad - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+* Teoría General de la Administración - Aprobada
+* Contabilidad Básica - Aprobada
+* Introducción a la Economía - Aprobada
+* Análisis Matemático - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+Correlativas para Rendir:
+* Introducción a la Contabilidad - Aprobada
+* Algebra y Geometría Analítica - Aprobada
+* Teoría General de la Administración - Aprobada
+* Contabilidad Básica - Aprobada
+* Introducción a la Economía - Aprobada
+* Análisis Matemático - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
+
+Código Asignatura: (EA 1)
+Asignatura: Comercio Internacional
+Correlativas para Cursar:
+* Régimen Tributario - Regularizada
+* Marketing - Regularizada
+* Sistemas de Administración Financiera y Control del Sector Público - Regularizada
+* Sistemas de Información - Aprobada
+Correlativas para Rendir:
+* Régimen Tributario - Aprobada
+* Marketing - Aprobada
+* Sistemas de Administración Financiera y Control del Sector Público - Aprobada
+* Sistemas de Información - Aprobada
+
+Código Asignatura: (EA2)
+Asignatura: Investigación de Mercado
+Correlativas para Cursar:
+* Marketing - Regularizada
+* Metodología de la Investigación - Regularizada
+Correlativas para Rendir:
+* Marketing - Aprobada
+* Metodología de la Investigación - Aprobada
+
+Código Asignatura: (EA3)
+Asignatura: Administración del Turismo
+Correlativas para Cursar:
+* Formulación y Evaluación de Proyectos - Regularizada
+* Metodología de la Investigación - Regularizada
+* Marketing - Regularizada
+* Cálculo Financiero - Aprobada
+Correlativas para Rendir:
+* Formulación y Evaluación de Proyectos - Aprobada
+* Metodología de la Investigación - Aprobada
+* Marketing - Aprobada
+* Cálculo Financiero - Aprobada
+
+Código Asignatura: (EA4)
+Asignatura: Administración Agropecuaria
+Correlativas para Cursar:
+* Administración de la Producción - Regularizada
+* Régimen Tributario - Regularizada
+* Formulación y Evaluación de Proyectos - Regularizada
+* Sistemas de Administración Financiera y Control del Sector Público - Regularizada
+* Administración Financiera - Regularizada
+* Marketing - Regularizada
+* Administración de Recursos Humanos - Aprobada
+* Derecho Laboral - Aprobada
+* Cálculo Financiero - Aprobada
+Correlativas para Rendir:
+* Administración de la Producción - Aprobada
+* Régimen Tributario - Aprobada
+* Formulación y Evaluación de Proyectos - Aprobada
+* Sistemas de Administración Financiera y Control del Sector Público - Aprobada
+* Administración Financiera - Aprobada
+* Marketing - Aprobada
+* Administración de Recursos Humanos - Aprobada
+* Derecho Laboral - Aprobada
+* Cálculo Financiero - Aprobada
+
+Código Asignatura: (EA5)
+Asignatura: Planeamiento Estratégico
+Correlativas para Cursar:
+* Marketing - Aprobada
+* Administración de Recursos Humanos - Aprobada
+* Administración de la Producción - Regularizada
+Correlativas para Rendir:
+* Marketing - Aprobada
+* Administración de Recursos Humanos - Aprobada
+* Administración de la Producción - Regularizada
+
+Código Asignatura: (EA6)
+Asignatura: Administración Pymes
+Correlativas para Cursar:
+* Administración de la Producción - Regularizada
+* Régimen Tributario - Regularizada
+* Derecho Societario - Regularizada
+* Formulación y Evaluación de Proyectos - Regularizada
+* Sistemas de Administración Financiera y Control del Sector Público - Regularizada
+* Marketing - Regularizada
+* Administración de Recursos Humanos - Aprobada
+* Derecho Laboral - Aprobada
+* Cálculo Financiero - Aprobada
+Correlativas para Rendir:
+* Administración de la Producción - Aprobada
+* Régimen Tributario - Aprobada
+* Derecho Societario - Aprobada
+* Formulación y Evaluación de Proyectos - Aprobada
+* Sistemas de Administración Financiera y Control del Sector Público - Aprobada
+* Marketing - Aprobada
+* Administración de Recursos Humanos - Aprobada
+* Derecho Laboral - Aprobada
+* Cálculo Financiero - Aprobada
+
+
