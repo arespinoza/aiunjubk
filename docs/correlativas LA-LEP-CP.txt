@@ -908,213 +908,213 @@ Correlativas para inscribirse a Rendir o Promocionar:
 SISTEMA DE CORRELATIVAS DE LA CARRERA CONTADOR PÚBLICO– PLAN 2019
 
 Código Asignatura: (CP01)
-Asignatura: INTRODUCCIONA LA MATEMATICA
+Asignatura: Introducción a La Matemática
 * Sin Correlativas
 
 Código Asignatura: (CP02)
-Asignatura: INTRODUCCIÓNA LA CONTABILIDAD
+Asignatura: Introducción a La Contabilidad
 * Sin Correlativas
 
 Código Asignatura: (CP03)
-Asignatura: CONTABILIDAD ELEMENTAL
+Asignatura: Contabilidad Elemental
  Correlativas para inscribirse a Cursar:
 * Ciclo Introductorio Completo – Aprobado.
-Correlativas para inscribirse a Rendir o Promocionar::
+Correlativas para inscribirse a Rendir o Promocionar:
 * Ciclo Introductorio Completo – Aprobado.
 
 Código Asignatura: (CP04) 
-Asignatura: MATEMÁTICA I
+Asignatura: Matemática I
 Correlativas para inscribirse a Cursar:
 * Ciclo Introductorio Completo – Aprobado.
 Correlativas para inscribirse a Rendir o Promocionar:
 * Ciclo Introductorio Completo – Aprobado.
 
 Código Asignatura: (CP05) 
-Asignatura: ADMINISTRACION I
+Asignatura: Administración I
  Correlativas para inscribirse a Cursar:
 * Ciclo Introductorio Completo – Aprobado.
 Correlativas para inscribirse a Rendir o Promocionar:
 * Ciclo Introductorio Completo – Aprobado.
 
 Código Asignatura: (CP06) 
-Asignatura: INTRODUCCIÓNA LA ECONOMÍA
+Asignatura: Introducción a La Economía
  Correlativas para inscribirse a Cursar:
 * Ciclo Introductorio Completo – Aprobado.
 Correlativas para inscribirse a Rendir o Promocionar:
 * Ciclo Introductorio Completo – Aprobado.
 
 Código Asignatura: (CP07) 
-Asignatura: CONTABILIDAD BASICA
+Asignatura: Contabilidad Básica
 Correlativas para inscribirse a Cursar:
-* CONTABILIDAD ELEMENTAL – Regularizada
+* Contabilidad Elemental – Regularizada
 * Ciclo Introductorio Completo – Aprobado.
 Correlativas para inscribirse a Rendir o Promocionar:
-* CONTABILIDAD ELEMENTAL – Aprobada
+* Contabilidad Elemental – Aprobada
 * Ciclo Introductorio Completo – Aprobado.
 
 
 Código Asignatura: (CP08) 
-Asignatura: MATEMÁTICA II
+Asignatura: Matemática II
 Correlativas para inscribirse a Cursar:
-* MATEMÁTICAI – Regularizada
+* Matemática I – Regularizada
 * Ciclo Introductorio Completo – Aprobado.
 Correlativas para inscribirse a Rendir o Promocionar:
-* MATEMÁTICAI - Aprobada
+* Matemática I - Aprobada
 * Ciclo Introductorio Completo – Aprobado.
 
 Código Asignatura: (CP09)
-Asignatura: INTRODUCCIÓN A LAS CIENCIAS SOCIALES 
+Asignatura: Introducción a las Ciencias Sociales
  Correlativas para inscribirse a Cursar:
 * Ciclo Introductorio Completo – Aprobado.
 Correlativas para inscribirse a Rendir o Promocionar:
 * Ciclo Introductorio Completo – Aprobado.
 
 Código Asignatura: (CP10) 
-Asignatura: ADMINISTRACION II
+Asignatura: Administración II
 Correlativas para inscribirse a Cursar:
-* ADMINISTRACION I - Regularizada
+* Administración I - Regularizada
 * Ciclo Introductorio Completo – Aprobado.
 Correlativas para inscribirse a Rendir o Promocionar:
-* ADMINISTRACION I - Aprobada
+* Administración I - Aprobada
 * Ciclo Introductorio Completo – Aprobado.
 
 Código Asignatura: (CP11)
-Asignatura: CONTABILIDAD SUPERIOR I
+Asignatura: Contabilidad Superior I
 Correlativas para inscribirse a Cursar:
-* CONTABILIDAD BASICA - Regularizada
+* Contabilidad Básica - Regularizada
 Correlativas para inscribirse a Rendir o Promocionar:
-* CONTABILIDAD BASICA - Aprobada
+* Contabilidad Básica - Aprobada
 
 Código Asignatura: (CP12)
-Asignatura: ESTADÍSTICA
+Asignatura: Estadística
 Correlativas para inscribirse a Cursar:
-* MATEMÁTICA II - Regularizada
+* Matemática II - Regularizada
 Correlativas para inscribirse a Rendir o Promocionar:
-* MATEMÁTICA II - Aprobada
+* Matemática II - Aprobada
 
 Código Asignatura: (CP13)
-Asignatura: DERECHO PRIVADO
+Asignatura: Derecho Privado
 Correlativas para inscribirse a Cursar:
-* INTRODUCCIÓN A LAS CIENCIAS SOCIALES - Regularizada
+* Introducción a las Ciencias Sociales - Regularizada
 Correlativas para inscribirse a Rendir o Promocionar:
-* INTRODUCCIÓN A LAS CIENCIAS SOCIALES - Aprobada
+* Introducción a las Ciencias Sociales - Aprobada
 
 Código Asignatura: (CP14)
-Asignatura: MICROECONOMÍA
+Asignatura: Microeconomía
 Correlativas para inscribirse a Cursar:
-* INTRODUCCIÓNA LA ECONOMÍA - Regularizada
+* Introducción a la Economía - Regularizada
 Correlativas para inscribirse a Rendir o Promocionar:
-* INTRODUCCIÓNA LA ECONOMÍA - Aprobada
+* Introducción a la Economía - Aprobada
 
 Código Asignatura: (CP15)
-Asignatura: TECNOLOGIAS DELAINFORMACION
+Asignatura: Tecnologías de la información
 Correlativas para inscribirse a Cursar:
-* ADMINISTRACION II - Regularizada
+* Administración II - Regularizada
 Correlativas para inscribirse a Rendir o Promocionar:
-* ADMINISTRACION II - Aprobada
+* Administración II - Aprobada
 
 Código Asignatura: (CP16)
-Asignatura: CONTABILIDAD SUPERIOR ll
+Asignatura: Contabilidad Superior ll
 Correlativas para inscribirse a Cursar:
-* CONTABILIDAD SUPERIOR I - Regularizada
+* Contabilidad Superior I - Regularizada
 Correlativas para inscribirse a Rendir o Promocionar:
-* CONTABILIDAD SUPERIOR I - Aprobada
+* Contabilidad Superior I - Aprobada
 
 Código Asignatura: (CP17)
-Asignatura: DERECHO PÚBLICO
+Asignatura: Derecho Público
 Correlativas para inscribirse a Cursar:
-* DERECHO PRIVADO - Regularizada
+* Derecho Privado - Regularizada
 Correlativas para inscribirse a Rendir o Promocionar:
-* DERECHO PRIVADO - Aprobada
+* Derecho Privado - Aprobada
 
 Código Asignatura: (CP18)
-Asignatura: MACROECONOMÍA
+Asignatura: Macroeconomía
 Correlativas para inscribirse a Cursar:
-* MICROECONOMIA - Regularizada
+* Microeconomía - Regularizada
 Correlativas para inscribirse a Rendir o Promocionar:
-* MICROECONOMIA - Aprobada
+* Microeconomía - Aprobada
 
 Código Asignatura: (CP19)
-Asignatura: CONTABILIDAD SUPERIOR III 
+Asignatura: Contabilidad Superior III 
 Correlativas para inscribirse a Cursar:
-* CONTABILIDAD SUPERIOR II – Regularizada
+* Contabilidad Superior II – Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Regularizadas
 * Contabilidad Básica - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* CONTABILIDAD SUPERIOR II - Aprobada
+* Contabilidad Superior II - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Contabilidad Básica - Aprobada
 
 Código Asignatura: (CP20)
-Asignatura: FINANZAS PÚBLICAS
+Asignatura: Finanzas Públicas
 Correlativas para inscribirse a Cursar:
-* MACROECONOMÍA – Regularizada
+* Macroeconomía – Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Regularizadas
 * Contabilidad Básica - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* MACROECONOMÍA - Aprobada
+* Macroeconomía - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Contabilidad Básica - Aprobada
 
 Código Asignatura: (CP21)
-Asignatura: SISTEMAS DE INFORMACIÓN
+Asignatura: Sistemas De Información
 Correlativas para inscribirse a Cursar:
-* TECNOLOGÍAS DE LAINFORMACIÓN - Regularizada
+* Tecnologías de la Información - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Regularizadas
 * Contabilidad Básica - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* TECNOLOGÍAS DE LAINFORMACIÓN - Aprobada
+* Tecnologías de la Información - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Contabilidad Básica - Aprobada
 
 Código Asignatura: (CP22)
-Asignatura: CÁLCULO FINANCIERO
+Asignatura: Cálculo Financiero
 Correlativas para inscribirse a Cursar:
-* ESTADÍSTICA - Regularizada
+* Estadística - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Regularizadas
 * Contabilidad Básica - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* ESTADÍSTICA - Aprobada
+* Estadística - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Contabilidad Básica - Aprobada
 
 
 Código Asignatura: (CP23)
-Asignatura: DERECHOLABORAL
+Asignatura: Derecho Laboral
 Correlativas para inscribirse a Cursar:
-* DERECHO PUBLICO - Regularizada
+* Derecho Publico - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Regularizadas
 * Contabilidad Básica - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* DERECHO PUBLICO - Aprobada
+* Derecho Publico - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Contabilidad Básica - Aprobada
 
 Código Asignatura: (CP24)
-Asignatura: ADMINISTRACIÓNFINANCIERA
+Asignatura: Administración Financiera
 Correlativas para inscribirse a Cursar:
-* CÁLCULO FINANCIERO - Regularizada
+* Cálculo Financiero - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Regularizadas
 * Contabilidad Básica - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* CÁLCULO FINANCIERO - Aprobada
+* Cálculo Financiero - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Contabilidad Básica - Aprobada
 
 
 Código Asignatura: (CP25)
-Asignatura: COSTOS
+Asignatura: Costos
 Correlativas para inscribirse a Cursar:
-* CONTABILIDAD SUPERIOR III - Regularizada
+* Contabilidad Superior III - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Regularizadas
 * Contabilidad Básica - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* CONTABILIDAD SUPERIOR III - Aprobada
+* Contabilidad Superior III - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Contabilidad Básica - Aprobada
 
 Código Asignatura: (CP26)
-Asignatura: HISTORIA ECONÓMICAY SOCIAL
+Asignatura: Historia Económica y Social
 Correlativas para inscribirse a Cursar:
 * Todas las Materias del 1er. Año Ciclo Básico – Regularizadas
 * Contabilidad Básica - Aprobada
@@ -1124,126 +1124,126 @@ Correlativas para inscribirse a Rendir o Promocionar:
 
 
 Código Asignatura: (CP27)
-Asignatura: ANALISIS E INTERPRETACION DE ESTADOS CONTABLES
+Asignatura: Análisis e Interpretación de Estados Contables
 Correlativas para inscribirse a Cursar:
-* CONTABILIDAD SUPERIOR III - Regularizada
+* Contabilidad Superior III - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* CONTABILIDAD SUPERIOR III - Aprobada
+* Contabilidad Superior III - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP28)
-Asignatura: IMPUESTOS I
+Asignatura: Impuestos I
 Correlativas para inscribirse a Cursar:
-* FINANZAS PÚBLICAS - Regularizada
+* Finanzas Públicas - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* FINANZAS PÚBLICAS - Aprobada
+* Finanzas Públicas - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP29)
-Asignatura: DERECHO SOCIETARIO
+Asignatura: Derecho Societario
 Correlativas para inscribirse a Cursar:
-* DERECHO LABORAL - Regularizada
+* Derecho Laboral - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* DERECHO LABORAL - Aprobada
+* Derecho Laboral - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP30)
-Asignatura: CONTABILIDAD DE GESTIÓN
+Asignatura: Contabilidad de Gestión
 Correlativas para inscribirse a Cursar:
-* COSTOS - Regularizada
+* Costos - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* COSTOS - Aprobada
+* Costos - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP31)
-Asignatura: IMPUESTOS II
+Asignatura: Impuestos II
 Correlativas para inscribirse a Cursar:
-* IMPUESTOS I - Regularizada
+* Impuestos I - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* IMPUESTOS I - Aprobada
+* Impuestos I - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP32)
-Asignatura: DERECHO CONCURSAL
+Asignatura: Derecho Concursal
 Correlativas para inscribirse a Cursar:
-* DERECHO SOCIETARIO - Regularizada
+* Derecho Societario - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* DERECHO SOCIETARIO - Aprobada
+* Derecho Societario - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP33)
-Asignatura: AUDITORÍAI
+Asignatura: Auditoría I
 Correlativas para inscribirse a Cursar:
-* CONTABILIDAD SUPERIOR III - Regularizada
+* Contabilidad Superior III - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* CONTABILIDAD SUPERIOR III - Aprobada
+* Contabilidad Superior III - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP34)
-Asignatura: CONTABILIDAD GUBERNAMENTAL
+Asignatura: Contabilidad Gubernamental
 Correlativas para inscribirse a Cursar:
-* FINANZAS PÚBLICOS - Regularizada
+* Finanzas Públicas - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* FINANZAS PÚBLICOS - Aprobada
+* Finanzas Públicas - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP35)
-Asignatura: AUDITORIA II
+Asignatura: Auditoria II
 Correlativas para inscribirse a Cursar:
-* AUDITORIA I - Regularizada
+* Auditoria I - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 3er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* AUDITORIA I - Aprobada
+* Auditoria I - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 3er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP36)
-Asignatura: METODOLOGIA DE LA INVESTIGACION
+Asignatura: Metodología de la Investigación
 Correlativas para inscribirse a Cursar:
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
@@ -1256,51 +1256,51 @@ Correlativas para inscribirse a Rendir o Promocionar:
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP37)
-Asignatura: TALLER DE INTEGRACIÖN JURÍDICOCP38 CONTABLE
+Asignatura: Taller de Integración Jurídico y Contable
 Correlativas para inscribirse a Cursar:
-* DERECHO CONCURSAL - Regularizada
+* Derecho Concursal - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 3er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* DERECHO CONCURSAL - Aprobada
+* Derecho Concursal - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 3er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP39)
-Asignatura: PRACTICA PROFESIONAL
+Asignatura: Práctica Profesional
 Correlativas para inscribirse a Cursar:
-* AUDITORIA II - Regularizada
-* IMPUESTOS II - Regularizada
+* Auditoria II - Regularizada
+* Impuestos II - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 3er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* AUDITORIA II - Aprobada
-* IMPUESTOS II - Aprobada
+* Auditoria II - Aprobada
+* Impuestos II - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 3er. Año Ciclo Básico – Aprobadas
 * Contabilidad Superior II - Aprobada
 
 Código Asignatura: (CP40)
-Asignatura: SEMINARIO CONTABLE
+Asignatura: Seminario Contable
 Correlativas para inscribirse a Cursar:
-* METODOLOGIA DE LA INVESTIGACIÓN - Regularizada
-* AUDITORIA II - Regularizada
-* IMPUESTOS II - Regularizada
+* Metodología de la Investigación - Regularizada
+* Auditoria II - Regularizada
+* Impuestos II - Regularizada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 3er. Año Ciclo Básico – Regularizadas
 * Contabilidad Superior II - Aprobada
 Correlativas para inscribirse a Rendir o Promocionar:
-* METODOLOGIA DE LA INVESTIGACIÓN - Aprobada
-* AUDITORIA II - Aprobada
-* IMPUESTOS II - Aprobada
+* Metodología de la Investigación - Aprobada
+* Auditoria II - Aprobada
+* Impuestos II - Aprobada
 * Todas las Materias del 1er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 2er. Año Ciclo Básico – Aprobadas
 * Todas las Materias del 3er. Año Ciclo Básico – Aprobadas
