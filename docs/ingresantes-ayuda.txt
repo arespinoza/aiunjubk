@@ -115,7 +115,7 @@ RESPUESTA: Las carreras que ofrece la facultad de Ciencias económicas para los 
             - Licenciatura en Economía Política.
 
 PREGUNTA: ¿Cómo puedo obtener información sobre las becas disponibles?
-Respuesta: Puedes consultar el sitio de la Secretaria de Bienestar Universitario accediendo,  https://www.unju.edu.ar/secretaria_bienestar_universitario.html.
+Respuesta: Puedes consultar el sitio de la Secretaria de Bienestar Universitario accediendo,  https://www.unju.edu.ar/secretaria_bienestar_universitario.html
 
 Pregunta: ¿Dónde puedo encontrar el horario de clases?
 Respuesta: El horario de clases se publicará en la aplicación de servicios FCE Digital unos de uno a dos días habiles antes al inicio de los cursos de ingreso, enlace https://aplicaciones.unju.edu.ar/servicioapp (usuario "aspirante" y clave "aspirante").
