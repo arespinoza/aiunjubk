@@ -21,7 +21,7 @@ import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { loadQAStuffChain} from "langchain/chains";
 
 const app = express();
-const port = 3007;
+const port = 3000;
 app.use(cors({origin: ['http://localhost:4200','http://10.3.0.62:4200',  'http://aplicaciones.fce.unju.edu.ar', 'http://aplicaciones.unju.edu.ar']}));
 
 
