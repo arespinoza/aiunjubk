@@ -32,7 +32,7 @@ const embeddingstext = new GoogleGenerativeAIEmbeddings({
 });
 
 
-// Create docs with a loader
+// Create docs with a loader //
 // define what documents to load
 const loader = new DirectoryLoader("./docs",{
   ".txt" : (path)=>new TextLoader(path),
