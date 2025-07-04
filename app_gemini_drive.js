@@ -246,7 +246,7 @@ app.get('/api/ask', async (req, res) => {
                 Responde a la  pregunta SIEMPRE en el lenguaje español. No obtengas información de otra universidad diferente a la Universidad Nacional de Jujuy.
                 Si se pregunta por una materia responder siempre diferenciando a que carrera pertenece la materia. el nombre de una materia puede ser el mismo en diferentes carreras pero son materias diferentes con contenidos minimos diferentes.
                 Al final de la respuesta agrega una linea vacia y pon este texto "Si no obtienes resultados puedes plantear la pregunta de otra manera".
-                Si la pregunta es en relación a un libro trata de responder en forma de lista de items, puedes buscar en el título o el autor del libro. Cada item es un libro y en cada linea que salga primero el titulo, luego los autores, año de publicacion, eidcion y finalmente la cantidad de ejemplares existentes en biblioteca.
+                Si la pregunta es en relación a un libro trata de responder en forma de lista de items, puedes buscar en el título o el autor del libro. Cada item es un libro y en cada linea que salga primero el titulo, luego los autores, año de publicacion, eidcion y finalmente la cantidad de ejemplares existentes en biblioteca..
                 La lista que este ordenada de forma numerica.
                 La pregunta es: `
     if(req.query.pregunta!=null && req.query.pregunta!=""){
