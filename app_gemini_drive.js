@@ -261,7 +261,7 @@ app.get('/api/ask', async (req, res) => {
     console.log(question);
     console.log(question_contexto);
 
-    const resultOne = await vectorStore.similaritySearch(question, 40);
+    const resultOne = await vectorStore.similaritySearch(question, 20);
     //console.log("Resultados de la busqueda:");
     //console.log(resultOne);
 
