@@ -7,10 +7,7 @@ import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import * as dotenv from "dotenv";
 dotenv.config();
 
-//import { GoogleGenerativeAIEmbeddings } from "@langchain/google-genai"
 import { GoogleGenerativeAIEmbeddings }  from "@langchain/google-genai";
-
-
 import { TaskType } from "@google/generative-ai";
 
 import {TextLoader} from "langchain/document_loaders/fs/text";
@@ -20,13 +17,13 @@ import {RecursiveCharacterTextSplitter} from "langchain/text_splitter"
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { loadQAStuffChain} from "langchain/chains";
 
+import fs from 'fs';
+import path from 'path';
+
 
 
 // --- Importaciones y Configuración para Google Drive API ---
 import { google } from 'googleapis';
-import fs from 'fs';
-import path from 'path';
-// Configuración de la API de Google Drive
 const CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
 const CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
 const REDIRECT_URI = process.env.GOOGLE_REDIRECT_URI; // O una URI de aplicación instalada para desarrollo local
@@ -49,10 +46,7 @@ const embeddingstext = new GoogleGenerativeAIEmbeddings({
 });
 
 
-
-
-
-// Create docs with a loader
+// Create docs with a loader and load from .7docs folder
 // define what documents to load
 ////const loader = new DirectoryLoader("./docs",{
 ////  ".txt" : (path)=>new TextLoader(path),
@@ -148,11 +142,8 @@ async function downloadFilesFromDrive(folderId, destinationFolder) {
 
 
 
-
 app.listen(port, async() => {
   console.log(`Server is running on port ${port}`);
-
-
 
     // --- Lógica de integración con Google Drive movida aquí ---
     const GOOGLE_DRIVE_FOLDER_ID = process.env.GOOGLE_DRIVE_FOLDER_ID; // El ID de tu carpeta de Google Drive
@@ -160,8 +151,7 @@ app.listen(port, async() => {
 
     try {
 
-
-        // --- NUEVA LÓGICA PARA ELIMINAR  EL CONTENIDO DE LA CARPETA LOCAL ---
+        // --- LÓGICA PARA ELIMINAR  EL CONTENIDO DE LA CARPETA LOCAL ---
         if (fs.existsSync(LOCAL_DOCS_FOLDER)) {
             console.log(`Borrando el contenido de la carpeta local: ${LOCAL_DOCS_FOLDER}`);
             const files = await fs.promises.readdir(LOCAL_DOCS_FOLDER); // Lee el contenido de la carpeta
@@ -187,7 +177,7 @@ app.listen(port, async() => {
             console.log(`La carpeta '${LOCAL_DOCS_FOLDER}' no existe. Creándola...`);
             fs.mkdirSync(LOCAL_DOCS_FOLDER, { recursive: true });
         }
-        // --- FIN NUEVA LÓGICA ---
+        // --- FIN LÓGICA ELIMINAR CONTENIDO CARPETA LOCAL---
 
 
 
