@@ -6,12 +6,13 @@ import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 // This helps connect to our .env file
 import * as dotenv from "dotenv";
 dotenv.config();
+console.log("Valor de GOOGLE_API_KEY:", process.env.GOOGLE_API_KEY);
 
 import { GoogleGenerativeAIEmbeddings }  from "@langchain/google-genai";
 import { TaskType } from "@google/generative-ai";
 
-import {TextLoader} from "langchain/document_loaders/fs/text";
-import {PDFLoader} from "langchain/document_loaders/fs/pdf";
+import { TextLoader } from "langchain/document_loaders/fs/text";
+import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
 import {RecursiveCharacterTextSplitter} from "langchain/text_splitter"
 //import {DirectoryLoader} from "langchain/document_loaders/fs/directory";
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
@@ -258,10 +259,10 @@ app.get('/api/ask', async (req, res) => {
 
 
     const llm = new ChatGoogleGenerativeAI({
-      //modelName: "gemini-1.5-pro",
-      modelName: "gemini-1.5-flash",
+      model: "gemini-1.5-flash",
       temperature: 0,
       maxRetries: 3,
+      apiKey: process.env.GOOGLE_API_KEY,
     });
 
 
