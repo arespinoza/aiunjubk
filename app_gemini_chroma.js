@@ -25,6 +25,18 @@ import path from 'path';
 import { ChromaClient } from "chromadb";
 
 
+//accedemos a las variables pasadas por parametro
+// process.argv[0] es la ruta de node.js process.argv[1] es la ruta de tu archivo (chroma.js) process.argv[2] es el primer parámetro que pasas
+let actualizarbd = process.argv[2];
+if (actualizarbd !== undefined) {
+    console.log(`Se ha recibido el parámetro: "${actualizarbd}"`);
+} else {
+    console.log("No se ha recibido ningún parámetro. Se usará un valor por defecto.");
+    actualizarbd = 0; 
+}
+// fin acceso variables globales
+
+
 // --- Importaciones y Configuración para Google Drive API ---
 import { google } from 'googleapis';
 const CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
@@ -207,20 +219,23 @@ async function initializeVectorStore(docsFolder) {
 
 
         //elimino la collection si ya esta en la bd
-        const chromaClient = new ChromaClient({
-            //path: "http://10.3.2.199:8000"
-            host: "10.3.2.199",
-            port: 8000,
-            ssl: false, // o true si usas HTTPS
-        });
-        const colecciones = await chromaClient.listCollections();
-        console.log(`Colecciones encontradas: ${colecciones.length}`);
-        for (const coleccion of colecciones) {
-            const nombre = coleccion.name;
-            console.log(`Eliminando colección: ${nombre}`);
-            await chromaClient.deleteCollection({ name: nombre });
+        if (actualizarbd == 1){
+            const chromaClient = new ChromaClient({
+                //path: "http://10.3.2.199:8000"
+                host: "10.3.2.199",
+                port: 8000,
+                ssl: false, // o true si usas HTTPS
+            });
+            const colecciones = await chromaClient.listCollections();
+            console.log(`Colecciones encontradas: ${colecciones.length}`);
+            for (const coleccion of colecciones) {
+                const nombre = coleccion.name;
+                console.log(`Eliminando colección: ${nombre}`);
+                await chromaClient.deleteCollection({ name: nombre });
+            }
+            console.log("✅ Todas las colecciones fueron eliminadas.");
         }
-        console.log("✅ Todas las colecciones fueron eliminadas.");
+
 
 
         // Cargar los documentos y dividirlos en chunks primero
@@ -293,12 +308,15 @@ app.listen(port, async () => {
     // --- Lógica para DESCARGAR y luego INICIALIZAR el vector store al iniciar el servidor ---
     let downloadedPaths = null; 
     try {
-        // -- Logica para descargar archivos de google drive si es necesario
-        //const downloadedPaths =  await downloadFilesFromDrive(GOOGLE_DRIVE_FOLDER_ID, LOCAL_DOCS_FOLDER);
-        //if (downloadedPaths && downloadedPaths.length > 0) {
-            // -- Logica donde elimino carpeta local si corresponde para alvergar a los nuevos archivos 
-            //await deleteLocalFolder();
-        //}
+        if (actualizarbd == 1){
+            // -- Logica para descargar archivos de google drive si es necesario
+            const downloadedPaths =  await downloadFilesFromDrive(GOOGLE_DRIVE_FOLDER_ID, LOCAL_DOCS_FOLDER);
+            //if (downloadedPaths && downloadedPaths.length > 0) {
+                // -- Logica donde elimino carpeta local si corresponde para alvergar a los nuevos archivos 
+                //await deleteLocalFolder();
+            //}           
+        }
+
     } catch (error) {
         console.error("Error crítico durante la descarga de archivos de Google Drive:", error);
     }
@@ -354,7 +372,7 @@ app.get('/api/ask', async (req, res) => {
         console.log("Pregunta original:", question);
         console.log("Pregunta con contexto:", question_contexto);
 
-        const resultOne = await vectorStore.similaritySearch(req.query.pregunta, 25);
+        const resultOne = await vectorStore.similaritySearch(req.query.pregunta, 20);
         // console.log("Resultados de la búsqueda de similitud:", resultOne);
         console.log(resultOne);
 
