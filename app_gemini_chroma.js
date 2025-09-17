@@ -4,7 +4,6 @@ import express from 'express'
 import { ChatGoogleGenerativeAI } from "@langchain/google-genai";
 import * as dotenv from "dotenv";
 dotenv.config();
-console.log("Valor de GOOGLE_API_KEY:", process.env.GOOGLE_API_KEY);
 
 import { GoogleGenerativeAIEmbeddings } from "@langchain/google-genai";
 import { TaskType } from "@google/generative-ai";
@@ -37,6 +36,32 @@ if (actualizarbd !== undefined) {
 // fin acceso variables globales
 
 
+
+// Defino un manejador de claves 
+class KeyManager {
+  constructor(keys) {
+    this.keys = keys;
+    this.currentIndex = 0;
+  }
+
+  getCurrentKey() {
+    return this.keys[this.currentIndex];
+  }
+
+  switchToNextKey() {
+    // Incrementa el índice y vuelve al principio si llega al final
+    this.currentIndex = (this.currentIndex + 1) % this.keys.length;
+    console.log(`Switched to API key at index ${this.currentIndex}`);
+  }
+}
+// Instancia el gestor de claves con tus claves del archivo .env
+const keyManager = new KeyManager([
+  process.env.GOOGLE_API_KEY_01,
+  process.env.GOOGLE_API_KEY_02,
+]);
+
+
+
 // --- Importaciones y Configuración para Google Drive API ---
 import { google } from 'googleapis';
 const CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
@@ -56,12 +81,10 @@ const embeddingstext = new GoogleGenerativeAIEmbeddings({
     model: "text-embedding-004", // 768 dimensiones
     taskType: TaskType.RETRIEVAL_DOCUMENT,
     title: "Document title",
+    apikey: process.env.GOOGLE_API_KEY_01,
 });
 
 let vectorStore; // Se declara vectorStore globalmente para que sea accesible desde cualquier endpoint
-
-
-
 
 
 
@@ -377,27 +400,56 @@ app.get('/api/ask', async (req, res) => {
         console.log(resultOne);
 
         // Inicializa el modelo de lenguaje
-        const llm = new ChatGoogleGenerativeAI({
-            model: "gemini-1.5-flash",
-            temperature: 0,
-            maxRetries: 3,
-            apiKey: process.env.GOOGLE_API_KEY,
-        });
 
-        // Carga la cadena de preguntas y respuestas
-        const chainA = loadQAStuffChain(llm);
-        const desde = Date.now(); // Marca de tiempo de inicio
-        const resA = await chainA.invoke({
-            input_language: "Spanish",
-            output_language: "Spanish",
-            input_documents: resultOne,
-            question: question_contexto,
-        });
-        const hasta = Date.now(); // Marca de tiempo de fin
-        console.log("Segundos transcurridos de la consulta: " + String((hasta - desde) / 1000));
-        console.log("Respuesta del LLM:", resA);
+        let llm;
+        let resA;
+        const maxRetries = keyManager.keys.length; // El número máximo de intentos es la cantidad de claves que tienes
 
-        res.json({ result: resA }); // Envía la respuesta como JSON
+        for (let i = 0; i < maxRetries; i++) {
+            try {
+                llm = new ChatGoogleGenerativeAI({
+                model: "gemini-1.5-flash",
+                temperature: 0,
+                maxRetries: 3,
+                apiKey: keyManager.getCurrentKey(), // Usa la clave actual del gestor
+                });
+
+                const chainA = loadQAStuffChain(llm);
+                const desde = Date.now();
+                resA = await chainA.invoke({
+                input_language: "Spanish",
+                output_language: "Spanish",
+                input_documents: resultOne,
+                question: question_contexto,
+                });
+                const hasta = Date.now();
+                console.log("Segundos transcurridos de la consulta: " + String((hasta - desde) / 1000));
+                console.log("Indice de la clave actual:", i);
+                console.log("Respuesta del LLM:", resA);
+
+                break; // Si la llamada es exitosa, sal del bucle
+
+            } catch (error) {
+                // Verifica si el error es por límite de tasa (rate limit) o por una clave inválida
+                if (error.message.includes('rate limit') || error.message.includes('API key')) {
+                console.error(`Error de límite de tasa o clave API con la clave ${keyManager.getCurrentKey()}. Cambiando a la siguiente clave...`);
+                keyManager.switchToNextKey(); // Cambia a la siguiente clave
+                if (i === maxRetries - 1) {
+                    // Si ya intentaste con todas las claves, lanza un error definitivo
+                    throw new Error('Todas las claves API fallaron debido a límites de tasa o invalidez.');
+                }
+                } else {
+                // Si es otro tipo de error, lánzalo para que sea manejado por el `catch` externo
+                throw error;
+                }
+            }
+        }
+        if (resA) {
+        res.json({ result: resA });
+        } else {
+        res.status(500).json({ error: 'No se pudo generar una respuesta después de múltiples intentos.' });
+        }
+
 
     } catch (error) {
         console.error("Error en el endpoint /api/ask:", error);
