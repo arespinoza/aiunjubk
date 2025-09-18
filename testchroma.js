@@ -77,7 +77,7 @@ async function queryCollection(searchText) {
 
 // Ejecuta ambos tests para comparar los resultados
 //deleteCollections(["a-test-collection"]);
-//testChromaClient();
+testChromaClient();
 //testHeartbeat();
-queryCollection("¿activo pleno?");
+//queryCollection("¿activo pleno?");
 

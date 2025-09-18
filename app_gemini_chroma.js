@@ -311,7 +311,7 @@ async function initializeVectorStore(docsFolder) {
         const loader = new DirectoryLoader(docsFolder, {
             ".txt": (filePath) => new TextLoader(filePath),
             ".pdf": (filePath) => new PDFLoader(filePath),
-            ".csv": (filePath) => new CSVLoaderCustom(filePath),
+            //".csv": (filePath) => new CSVLoaderCustom(filePath),
         });
         const docs = await loader.load();
 
