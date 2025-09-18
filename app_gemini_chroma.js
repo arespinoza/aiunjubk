@@ -10,6 +10,7 @@ import { TaskType } from "@google/generative-ai";
 
 import { TextLoader } from "langchain/document_loaders/fs/text";
 import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
+
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
 
 //import { MemoryVectorStore } from "langchain/vectorstores/memory";
@@ -22,6 +23,9 @@ import fs from 'fs';
 import path from 'path';
 
 import { ChromaClient } from "chromadb";
+
+import { parse } from 'csv-parse';
+import { Document as LangChainDocument } from "langchain/document";
 
 
 //accedemos a las variables pasadas por parametro
@@ -59,6 +63,48 @@ const keyManager = new KeyManager([
   process.env.GOOGLE_API_KEY_01,
   process.env.GOOGLE_API_KEY_02,
 ]);
+
+
+class CSVLoaderCustom {
+    constructor(filePath) {
+        this.filePath = filePath;
+    }
+
+    async load() {
+        const fileContent = await fs.promises.readFile(this.filePath, 'utf-8');
+
+        return new Promise((resolve, reject) => {
+            const documents = [];
+
+            parse(fileContent, {
+                delimiter: ';',
+                columns: true,
+                skip_empty_lines: true,
+                trim: true,
+            }, (err, records) => {
+                if (err) {
+                    return reject(err);
+                }
+
+                for (const record of records) {
+                    const content = Object.entries(record)
+                        .map(([key, value]) => `${key}: ${value}`)
+                        .join('\n');
+
+                    documents.push(new LangChainDocument({
+                        pageContent: content,
+                        metadata: {
+                            source: path.basename(this.filePath),
+                            ...record // Opcional: agrega columnas del CSV como metadatos
+                        }
+                    }));
+                }
+
+                resolve(documents);
+            });
+        });
+    }
+}
 
 
 
@@ -263,8 +309,9 @@ async function initializeVectorStore(docsFolder) {
 
         // Cargar los documentos y dividirlos en chunks primero
         const loader = new DirectoryLoader(docsFolder, {
-            ".txt": (path) => new TextLoader(path),
-            ".pdf": (path) => new PDFLoader(path),
+            ".txt": (filePath) => new TextLoader(filePath),
+            ".pdf": (filePath) => new PDFLoader(filePath),
+            ".csv": (filePath) => new CSVLoaderCustom(filePath),
         });
         const docs = await loader.load();
 
@@ -378,8 +425,8 @@ app.get('/api/ask', async (req, res) => {
                 Responde a la pregunta SIEMPRE en el lenguaje español. No obtengas información de otra universidad diferente a la Universidad Nacional de Jujuy.
                 Si se pregunta por una materia responder siempre diferenciando a que carrera pertenece la materia. el nombre de una materia puede ser el mismo en diferentes carreras pero son materias diferentes con contenidos minimos diferentes.
                 Al final de la respuesta agrega una linea vacia y pon este texto "Si no obtienes resultados puedes plantear la pregunta de otra manera".
-                Si la pregunta es en relación a un libro trata de responder en forma de lista de items, puedes buscar en el título o el autor del libro. Cada item es un libro y en cada linea que salga primero el titulo, luego los autores, año de publicacion, eidcion y finalmente la cantidad de ejemplares existentes en biblioteca..
-                La lista que este ordenada de forma numerica.
+                Si la pregunta es en relación a un libro trata de responder en forma de lista de items, los de fecha de publicacion mas reciente que vayan primero, puedes buscar en el título o el autor del libro. Cada item es un libro y en cada linea que salga primero el titulo, luego los autores, año de publicacion, edicion y finalmente la cantidad de ejemplares existentes en biblioteca.
+                La lista que este ordenada de forma numerica, trata de ser lo mas abarcativo posible y que no queden libros fuera del resultado.
                 La pregunta es: `
 
         if (req.query.pregunta != null && req.query.pregunta !== "") {
