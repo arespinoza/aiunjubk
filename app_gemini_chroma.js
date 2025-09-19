@@ -66,44 +66,42 @@ const keyManager = new KeyManager([
 
 
 class CSVLoaderCustom {
-    constructor(filePath) {
-        this.filePath = filePath;
-    }
+    constructor(filePath) {
+        this.filePath = filePath;
+    }
 
-    async load() {
-        const fileContent = await fs.promises.readFile(this.filePath, 'utf-8');
+    async load() {
+        const fileContent = await fs.promises.readFile(this.filePath, 'utf-8');
 
-        return new Promise((resolve, reject) => {
-            const documents = [];
+        return new Promise((resolve, reject) => {
+            const documents = [];
+            parse(fileContent, {
+                delimiter: ';',
+                columns: true,
+                skip_empty_lines: true,
+                trim: true,
+            }, (err, records) => {
+                if (err) {
+                    return reject(err);
+                }
 
-            parse(fileContent, {
-                delimiter: ';',
-                columns: true,
-                skip_empty_lines: true,
-                trim: true,
-            }, (err, records) => {
-                if (err) {
-                    return reject(err);
-                }
+                for (const record of records) {
+                    const content = Object.entries(record)
+                        .map(([key, value]) => `${key}: ${value}`)
+                        .join('\n');
 
-                for (const record of records) {
-                    const content = Object.entries(record)
-                        .map(([key, value]) => `${key}: ${value}`)
-                        .join('\n');
-
-                    documents.push(new LangChainDocument({
-                        pageContent: content,
-                        metadata: {
-                            source: path.basename(this.filePath),
-                            ...record // Opcional: agrega columnas del CSV como metadatos
-                        }
-                    }));
-                }
-
-                resolve(documents);
-            });
-        });
-    }
+                    documents.push(new LangChainDocument({
+                        pageContent: content,
+                        metadata: {
+                            source: path.basename(this.filePath),
+                            ...record // Opcional: agrega columnas del CSV como metadatos
+                        }
+                    }));
+                }
+                resolve(documents);
+            });
+        });
+    }
 }
 
 
@@ -443,10 +441,10 @@ app.get('/api/ask', async (req, res) => {
         const preguntaLower = req.query.pregunta.toLowerCase();
         let filtroTipo = "documentacion"; // valor por defecto
         let resultOne;
-        if (preguntaLower.includes("bibliografia") || preguntaLower.includes("libro") || preguntaLower.includes("autor")) {
+        if (preguntaLower.includes("bibliografia") || preguntaLower.includes("libro") || preguntaLower.includes("libros") || preguntaLower.includes("autor") || preguntaLower.includes("autores")) {
             filtroTipo = "bibliografia";
             // Realiza la búsqueda con el filtro correspondiente
-            resultOne = await vectorStore.similaritySearch(req.query.pregunta, 20, {
+            resultOne = await vectorStore.similaritySearch(req.query.pregunta, 500, {
                 tipo: filtroTipo,
             });
         }else{
@@ -465,6 +463,7 @@ app.get('/api/ask', async (req, res) => {
 
         for (let i = 0; i < maxRetries; i++) {
             try {
+                console.log(resultOne);
                 llm = new ChatGoogleGenerativeAI({
                 model: "gemini-1.5-flash",
                 temperature: 0,
@@ -525,23 +524,26 @@ app.get('/api/document/all', async (req, res) => {
         }
 
         // Recupera todos los documentos de la colección
-        // La propiedad `include` asegura que obtengas el contenido y los metadatos
         const allDocuments = await chromaCollection.get({
-            include: ["metadatas", "documents", "embeddings"]
+            include: ["metadatas", "documents"]
+        });
+
+        // Formatea los resultados en un array de objetos
+        const formattedDocuments = allDocuments.ids.map((id, index) => {
+            return {
+                id: id,
+                document: allDocuments.documents[index],
+                metadatas: allDocuments.metadatas[index]
+            };
         });
 
         res.json({
             success: true,
-            count: allDocuments.ids.length,
-            documents: {
-                ids: allDocuments.ids,
-                documents: allDocuments.documents,
-                metadatas: allDocuments.metadatas,
-                // embeddings: allDocuments.embeddings, // ⚠️ Omitilo si no necesitás los embeddings (pueden ser muy grandes)
-            }
-        });       
+            count: formattedDocuments.length,
+            documents: formattedDocuments,
+        });
     } catch (error) {
         console.error("Error al recuperar todos los documentos:", error);
         res.status(500).json({ error: 'Error interno del servidor al procesar la solicitud.' });
-    }
+        }
 });
