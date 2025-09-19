@@ -285,9 +285,10 @@ async function initializeVectorStore(docsFolder) {
             title: "Document title",
         });
 
-        //pregunto si se actualiza la BD
+
+
+        //elimino la collection si ya esta en la bd
         if (actualizarbd == 1){
-            //elimino la collection si ya esta en la bd
             const chromaClient = new ChromaClient({
                 //path: "http://10.3.2.199:8000"
                 host: "10.3.2.199",
@@ -302,68 +303,70 @@ async function initializeVectorStore(docsFolder) {
                 await chromaClient.deleteCollection({ name: nombre });
             }
             console.log("✅ Todas las colecciones fueron eliminadas.");
+        }
 
-            // Cargar los documentos y dividirlos en chunks primero
-            const loader = new DirectoryLoader(docsFolder, {
-                ".txt": (filePath) => new TextLoader(filePath),
-                ".pdf": (filePath) => new PDFLoader(filePath),
-                ".csv": (filePath) => new CSVLoaderCustom(filePath),
-            });
-            const docs = await loader.load();
-            // catalogo los documentos en base al tipo de archivo
-            for (const doc of docs) {
-                const ext = path.extname(doc.metadata.source).toLowerCase();
-                if (ext === ".pdf" || ext === ".txt") {
-                    doc.metadata.tipo = "documentacion";
-                } else if (ext === ".csv") {
-                    doc.metadata.tipo = "bibliografia";
+
+
+        // Cargar los documentos y dividirlos en chunks primero
+        const loader = new DirectoryLoader(docsFolder, {
+            ".txt": (filePath) => new TextLoader(filePath),
+            ".pdf": (filePath) => new PDFLoader(filePath),
+            //".csv": (filePath) => new CSVLoaderCustom(filePath),
+        });
+        const docs = await loader.load();
+
+        const textSplitter = new RecursiveCharacterTextSplitter({
+            chunkSize: 5000,
+            chunkOverlap: 500,
+        });
+        const docOutput = await textSplitter.splitDocuments(docs);
+
+        // Arregla metadatos de los documentos para que puedan ser almacenados en chroma
+        docOutput.forEach(doc => {
+            const cleanMetadata = {};
+            for (const key in doc.metadata) {
+                const value = doc.metadata[key];
+                if (
+                    typeof value === "string" ||
+                    typeof value === "number" ||
+                    typeof value === "boolean" ||
+                    value === null
+                ) {
+                    cleanMetadata[key] = value;
                 } else {
-                    doc.metadata.tipo = "documentacion";
+                    cleanMetadata[key] = JSON.stringify(value);
                 }
             }
-            // fin catalogo los documentos en base al tipo de archivo
+            doc.metadata = cleanMetadata;
+        }); 
 
-            const textSplitter = new RecursiveCharacterTextSplitter({
-                chunkSize: 5000,
-                chunkOverlap: 500,
-            });
-            const docOutput = await textSplitter.splitDocuments(docs);
-            // Arregla metadatos de los documentos para que puedan ser almacenados en chroma
-            docOutput.forEach(doc => {
-                const cleanMetadata = {};
-                for (const key in doc.metadata) {
-                    const value = doc.metadata[key];
-                    if (
-                        typeof value === "string" ||
-                        typeof value === "number" ||
-                        typeof value === "boolean" ||
-                        value === null
-                    ) {
-                        cleanMetadata[key] = value;
-                    } else {
-                        cleanMetadata[key] = JSON.stringify(value);
-                    }
-                }
-                doc.metadata = cleanMetadata;
-            }); 
-            // Usa Chroma.fromDocuments para asegurarte de que la colección se crea con la función de embedding
-            vectorStore = await Chroma.fromDocuments(
-                docOutput, 
-                embeddingstext, 
-                {
-                    collectionName: "documentos_unju",
-                    url: "http://10.3.2.199:8000",
-                }
-            );
-            console.log("Vector store con Chroma inicializado y documentos cargados con éxito.");
-        }else{
-            // recupero la coleccion de la Base de Dato
-            vectorStore = new Chroma(embeddingstext, {
+        
+        // Usa Chroma.fromDocuments para asegurarte de que la colección
+        // se crea con la función de embedding.
+
+  
+
+        vectorStore = await Chroma.fromDocuments(
+            docOutput, 
+            embeddingstext, 
+            {
                 collectionName: "documentos_unju",
                 url: "http://10.3.2.199:8000",
-            });
-            console.log(`✅ Colección "${collectionName}" recuperada con éxito.`);
-        }
+            }
+        );
+
+        //vectorStore = await new Chroma(embeddingstext, {
+        //    collectionName: collectionName,
+        //    url: "http://10.3.2.199:8000",
+            //host: "10.3.2.199",
+            //port: 8000,
+            //ssl: false, // o true si usas HTTPS
+        //});
+        //await vectorStore.addDocuments(docOutput);
+
+
+        console.log("Vector store con Chroma inicializado y documentos cargados con éxito.");
+
     } catch (error) {
         console.error("Error al inicializar el vector store con Chroma:", error);
     }
@@ -439,26 +442,12 @@ app.get('/api/ask', async (req, res) => {
         console.log("Pregunta original:", question);
         console.log("Pregunta con contexto:", question_contexto);
 
-        // Determina el tipo de documento según el contenido de la pregunta
-        const preguntaLower = req.query.pregunta.toLowerCase();
-        let filtroTipo = "documentacion"; // valor por defecto
-        let resultOne;
-        if (preguntaLower.includes("bibliografia") || preguntaLower.includes("libro") || preguntaLower.includes("autor")) {
-            filtroTipo = "bibliografia";
-            // Realiza la búsqueda con el filtro correspondiente
-            resultOne = await vectorStore.similaritySearch(req.query.pregunta, 20, {
-                tipo: filtroTipo,
-            });
-        }else{
-            let filtroTipo = "documentacion"; // valor por defecto
-            // Realiza la búsqueda con el filtro correspondiente
-            resultOne = await vectorStore.similaritySearch(req.query.pregunta, 20, {
-                tipo: filtroTipo,
-            });
-        }
-
+        const resultOne = await vectorStore.similaritySearch(req.query.pregunta, 20);
+        // console.log("Resultados de la búsqueda de similitud:", resultOne);
+        console.log(resultOne);
 
         // Inicializa el modelo de lenguaje
+
         let llm;
         let resA;
         const maxRetries = keyManager.keys.length; // El número máximo de intentos es la cantidad de claves que tienes
@@ -516,7 +505,7 @@ app.get('/api/ask', async (req, res) => {
 })
 
 /* Endpoint GET para recuperar todos los documentos */
-app.get('/api/document/all', async (req, res) => {
+app.get('/api/documents/all', async (req, res) => {
     let chromaCollection = null;
     try {
         chromaCollection = vectorStore.collection;
@@ -530,16 +519,16 @@ app.get('/api/document/all', async (req, res) => {
             include: ["metadatas", "documents", "embeddings"]
         });
 
+        const sliceCount = 1;
         res.json({
             success: true,
-            count: allDocuments.ids.length,
             documents: {
-                ids: allDocuments.ids,
-                documents: allDocuments.documents,
-                metadatas: allDocuments.metadatas,
-                // embeddings: allDocuments.embeddings, // ⚠️ Omitilo si no necesitás los embeddings (pueden ser muy grandes)
+                ids: allDocuments.ids.slice(0, sliceCount),
+                documents: allDocuments.documents.slice(0, sliceCount),
+                metadatas: allDocuments.metadatas.slice(0, sliceCount),
+                embeddings: allDocuments.embeddings.slice(0, sliceCount)
             }
-        });       
+        });        
     } catch (error) {
         console.error("Error al recuperar todos los documentos:", error);
         res.status(500).json({ error: 'Error interno del servidor al procesar la solicitud.' });
