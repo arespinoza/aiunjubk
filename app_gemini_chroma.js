@@ -465,7 +465,7 @@ app.get('/api/ask', async (req, res) => {
             try {
                 console.log(resultOne);
                 llm = new ChatGoogleGenerativeAI({
-                model: "gemini-1.5-flash",
+                model: "gemini-2.5-flash",
                 temperature: 0,
                 maxRetries: 3,
                 apiKey: keyManager.getCurrentKey(), // Usa la clave actual del gestor
