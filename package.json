@@ -10,9 +10,9 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@langchain/community": "^0.3.48",
-    "@langchain/core": "^0.3.62",
-    "@langchain/google-genai": "^0.2.14",
+    "@langchain/community": "^1.1.14",
+    "@langchain/core": "^1.1.22",
+    "@langchain/google-genai": "^2.1.17",
     "chromadb": "^3.0.14",
     "cors": "^2.8.5",
     "csv-parse": "^6.1.0",
@@ -20,10 +20,8 @@
     "express": "^4.19.2",
     "googleapis": "^126.0.1",
     "install": "^0.13.0",
-    "langchain": "^0.3.29",
+    "langchain": "^1.2.21",
     "multiformats": "^9.9.0",
-    "node-llama-cpp": "^2.8.10",
-    "ollama": "^0.5.1",
     "pdf-parse": "^1.1.1"
   }
 }

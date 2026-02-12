@@ -6,26 +6,29 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 import { GoogleGenerativeAIEmbeddings } from "@langchain/google-genai";
+
 import { TaskType } from "@google/generative-ai";
 
-import { TextLoader } from "langchain/document_loaders/fs/text";
+import { TextLoader } from "@langchain/classic/document_loaders/fs/text";
 import { PDFLoader } from "@langchain/community/document_loaders/fs/pdf";
 
-import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
+import { RecursiveCharacterTextSplitter } from "@langchain/textsplitters";
 
 //import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { Chroma } from "@langchain/community/vectorstores/chroma";
 
-import { loadQAStuffChain } from "langchain/chains";
-import { DirectoryLoader } from "langchain/document_loaders/fs/directory";
-
+import { loadQAStuffChain } from "@langchain/classic/chains";
+import { DirectoryLoader } from "@langchain/classic/document_loaders/fs/directory";
 import fs from 'fs';
 import path from 'path';
 
 import { ChromaClient } from "chromadb";
 
 import { parse } from 'csv-parse';
-import { Document as LangChainDocument } from "langchain/document";
+import { Document as LangChainDocument } from "@langchain/classic/document";
+
+
+//document";
 
 
 //accedemos a las variables pasadas por parametro
@@ -122,10 +125,9 @@ const port = 3000;
 app.use(cors({ origin: ['http://localhost:4200', 'http://10.3.0.62:4200', 'http://aplicaciones.fce.unju.edu.ar', 'http://aplicaciones.unju.edu.ar'] }));
 
 const embeddingstext = new GoogleGenerativeAIEmbeddings({
-    model: "text-embedding-004", // 768 dimensiones
+    model: "gemini-embedding-001", // 768 dimensiones
     taskType: TaskType.RETRIEVAL_DOCUMENT,
-    title: "Document title",
-    apikey: process.env.GOOGLE_API_KEY_01,
+    apiKey: process.env.GOOGLE_API_KEY_01,
 });
 
 let vectorStore; // Se declara vectorStore globalmente para que sea accesible desde cualquier endpoint
@@ -278,10 +280,15 @@ async function initializeVectorStore(docsFolder) {
         const collectionName = "documentos_unju";
 
         const embeddingstext = new GoogleGenerativeAIEmbeddings({
-            model: "text-embedding-004", // 768 dimensiones
+            model: "gemini-embedding-001", // 768 dimensiones
             taskType: TaskType.RETRIEVAL_DOCUMENT,
-            title: "Document title",
+            apiKey: process.env.GOOGLE_API_KEY_01,
         });
+
+
+
+
+
 
         //pregunto si se actualiza la BD
         if (actualizarbd == 1){
@@ -322,31 +329,41 @@ async function initializeVectorStore(docsFolder) {
             // fin catalogo los documentos en base al tipo de archivo
 
             const textSplitter = new RecursiveCharacterTextSplitter({
-                chunkSize: 5000,
+                chunkSize: 3000,
                 chunkOverlap: 500,
             });
             const docOutput = await textSplitter.splitDocuments(docs);
-            // Arregla metadatos de los documentos para que puedan ser almacenados en chroma
-            docOutput.forEach(doc => {
+
+            // 1. Filtrar documentos que quedaron vacíos tras el split
+            const validDocs = docOutput.filter(doc => doc.pageContent && doc.pageContent.trim().length > 0);            
+
+            // 2. Arregla metadatos (tu lógica actual mejorada)
+            validDocs.forEach(doc => {
                 const cleanMetadata = {};
                 for (const key in doc.metadata) {
                     const value = doc.metadata[key];
-                    if (
-                        typeof value === "string" ||
-                        typeof value === "number" ||
-                        typeof value === "boolean" ||
-                        value === null
-                    ) {
+                    // Chroma no acepta objetos anidados, solo string, number, boolean
+                    if (typeof value === "string" || typeof value === "number" || typeof value === "boolean") {
                         cleanMetadata[key] = value;
+                    } else if (value === null) {
+                        cleanMetadata[key] = "";
                     } else {
                         cleanMetadata[key] = JSON.stringify(value);
                     }
                 }
                 doc.metadata = cleanMetadata;
-            }); 
-            // Usa Chroma.fromDocuments para asegurarte de que la colección se crea con la función de embedding
+            });
+
+            //NO BORRAR ESTE CODIGO, SIRVE PARA PROBAR SI EL MODELO DE
+            //EMBEDDING ESTA FUNCIONANDO BIEN CON UN DOC HOLA MUNDO SIMPLE
+            //console.log("Iniciando Prueba de embedding:"); 
+            //const testEmbedding = await embeddingstext.embedQuery("Hola mundo");
+            //console.log("Prueba de embedding:", testEmbedding); 
+
+
+            // 3. Cargar en Chroma usando los documentos validados
             vectorStore = await Chroma.fromDocuments(
-                docOutput, 
+                validDocs, // Usar validDocs en lugar de docOutput
                 embeddingstext, 
                 {
                     collectionName: "documentos_unju",
