@@ -122,7 +122,13 @@ const drive = google.drive({ version: 'v3', auth: oAuth2Client });
 
 const app = express();
 const port = 3000;
-app.use(cors({ origin: ['http://localhost:4200', 'http://10.3.0.62:4200', 'http://aplicaciones.fce.unju.edu.ar', 'http://aplicaciones.unju.edu.ar'] }));
+app.use(cors({ origin: ['http://localhost:4200',
+                         'http://10.3.0.62:4200', 
+                         'http://aplicaciones.fce.unju.edu.ar', 
+                         'http://aplicaciones.unju.edu.ar',
+                         'https://aplicaciones.fce.unju.edu.ar', 
+                         'https://aplicaciones.unju.edu.ar'                         
+                        ] }));
 
 const embeddingstext = new GoogleGenerativeAIEmbeddings({
     model: "gemini-embedding-001", // 768 dimensiones
